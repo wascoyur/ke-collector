@@ -1,0 +1,12 @@
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+form-row > input {
+  flex: 1;
+}
+.unused{
+    display: none;
+}
