@@ -10,6 +10,18 @@
 
     <form action="#" method="post" class="form" name="form-name">
         <fieldset>
+            <legend>Выбор типа оборудования</legend>
+            <li class="form-row">
+                <label>Тип оборудования</label>
+                <select type="radio" size=4 name="type-eqipment" class="field">
+                    <option value="monitor">Монитор</option>
+                    <option value="systemb">Системный блок</option>
+                    <option value="printer">Принтер (МФУ)</option>
+                    <option value="notebook">Ноутбук</option>
+                </select>
+            </li>
+        </fieldset>
+        <fieldset>
             <legend>Адресные данные</legend>
             <li class="form-row">
                 <label for="organ">Наименование учреждения</label>
@@ -32,6 +44,10 @@
                 <input type="text" name = "kabinet" class="field" placeholder="Кабинет">
             </li>
             <li class="form-row">
+                <label for="">Владелец(Юр.лицо)</label>
+                <input type="text" name = "owner" class="field" placeholder="Владелец (Юр.лицо)">
+            </li>
+            <li class="form-row">
                 <label>Сохранить адрес?</label>
                 <input type="checkbox" name="save-addr" checked>
             </li>
@@ -41,24 +57,13 @@
             </li>
         </fieldset>
 
-<fieldset>
-    <legend>Выбор типа оборудования</legend>
-        <li class="form-row">
-            <label >Тип оборудования</label>
-            <select type="radio" size= 4 name="type-eqipment" class="field">
-                <option value="monitor">Монитор</option>
-                <option value="systemb">Системный блок</option>
-                <option value="printer">Принтер (МФУ)</option>
-                <option value="notebook">Ноутбук</option>
-            </select>
-        </li>
-</fieldset>
+
 <fieldset>
     <legend>Характеристики оборудования (для SB, N)</legend>
     <li class="form-row">
         <label for="">Марка торговая (производитель оборудования)</label>
         <input type="text" name="trademark" class="field" placeholder="Марка торговая">
-    </li>
+    </li> 
     <li class="form-row">
         <label for="">KE</label>
         <input type="text" name="conf-unit" class="field" placeholder="№ конфигурационной единицы">
@@ -106,11 +111,16 @@
 </fieldset>
 <fieldset>
     <legend>Характеристики оборудования(только для Мониторов)</legend>
+    <li class="form-row">
+        <label for="">Диагональ дисплея</label>
+        <input type="text" name="monitorsize" class="field" placeholder="размер диагонали в дюймах">
+    </li>
+
 </fieldset>
 
      ФИО Пользователя
-     Диагональ дисплея
-     Подразделение-владелец
+
+
 
     Гарантия, лет
     Ввод в эксплуатацию
