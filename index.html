@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KE-collector</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="JavaScript-autoComplete-master/auto-complete.css">
 </head>
 <body>
-
     <form action="#" method="post" class="form" name="form-name">
         <fieldset>
             <legend>Выбор типа оборудования</legend>
@@ -20,9 +20,21 @@
                     <option value="notebook">Ноутбук</option>
                 </select>
             </li>
+            <li class="form-row">
+                <label for="organisation">Наименование учреждения</label>
+                <input type="text" id="test" name="commissioning" class="field" placeholder="Юр.лицо">
+            </li>
+            <li class="form-row">
+                <label for="commissioning">Дата ввода в эксплуатацию</label>
+                <input type="date" name="date" class="field" placeholder="ввод в эксплуатацию">
+            </li>
         </fieldset>
         <fieldset>
             <legend>Адресные данные</legend>
+            <li class="form-row">
+                <label for="user">ФИО Пользователя</label>
+                <input type="text" name = "user" class="field" placeholder="ФИО Пользователя">
+            </li><li class="form-row"></li>
             <li class="form-row">
                 <label for="organ">Наименование учреждения</label>
                 <input type="text" name = "organ" class="field" placeholder="Наименование учреждения">
@@ -63,7 +75,7 @@
     <li class="form-row">
         <label for="">Марка торговая (производитель оборудования)</label>
         <input type="text" name="trademark" class="field" placeholder="Марка торговая">
-    </li> 
+    </li>
     <li class="form-row">
         <label for="">KE</label>
         <input type="text" name="conf-unit" class="field" placeholder="№ конфигурационной единицы">
@@ -118,15 +130,9 @@
 
 </fieldset>
 
-     ФИО Пользователя
-
-
-
-    Гарантия, лет
-    Ввод в эксплуатацию
-    Примечание
 </fieldset>
     </form>
+<script src="JavaScript-autoComplete-master/auto-complete.js"></script>
 <script src="js.js"></script>
 </body>
 </html>
