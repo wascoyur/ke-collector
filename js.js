@@ -4,7 +4,7 @@ for (const iterator of elements) {
 }
 const listener = this.addEventListener('input', (event)=>{
     if(event.target && event.type == 'input'){
-        console.log('сработал инпут: ' + (event.target));
+        console.log('сработал инпут: ' + (event.form.elements()));
 
     }
 });
@@ -29,32 +29,3 @@ var demo1 = new autoComplete({
     suggest(suggestions);
   }
 });
-
-// var copl = new autoComplete({q:"Подразделение",
-// w:"Тип",
-// e:"Модель",
-// r:"Инвентарный номер",
-// t:"Серийный номер",
-// y:"Картридж",
-// u:"Счетчик",
-//   selector: 'input[name="organisation"]',
-//   minChars: 1,
-//   source: function(term, suggest) {
-//     term = term.toLowerCase();
-//     var choices = [
-//       "Подразделение",
-//       "Тип",
-//       "Модель",
-//       "Инвентарный номер",
-//       "Серийный номер",
-//       "Картридж",
-//       "Счетчик"
-//     ];
-//     var suggestions = [];
-//     for (i = 0; i < choices.length; i++)
-//       if (~choices[i].toLowerCase().indexOf(term)) suggestions.push(choices[i]);
-//     suggest(suggestions);
-//   }
-// });
-
-//////////////
