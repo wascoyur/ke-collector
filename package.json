@@ -1,0 +1,33 @@
+{
+  "name": "ke-collector",
+  "version": "1.0.0",
+  "description": "Проект скорее учебный.\r Страница для сбора данных об оборудовании клиентов, находящемся на обслуживании МКУ ИТ.\r В качестве БД будет использоваться Firebase.",
+  "main": "test.js",
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.1",
+    "html-webpack-plugin": "^4.3.0",
+    "path": "^0.12.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "devStart": "webpack --mode development --open --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wascoyur/ke-collector.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "wascoyur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wascoyur/ke-collector/issues"
+  },
+  "homepage": "https://github.com/wascoyur/ke-collector#readme"
+}
