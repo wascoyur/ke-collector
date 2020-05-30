@@ -37,7 +37,6 @@ module.exports = {
 				use: [{
 					loader: MiniCssExtractPlugin.loader,
 					options: {
-						hmr: isDev,
 						reloadAll: true
 					},	
 				},'css-loader']
@@ -62,6 +61,5 @@ module.exports = {
 	},
 	devServer: {
 		port: 4200,
-		hot: isDev
 	}
 }

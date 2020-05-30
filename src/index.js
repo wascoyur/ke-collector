@@ -1,3 +1,5 @@
+import './css/style.css'
+
 let elements = document.getElementsByTagName('input');
 for (const iterator of elements) {
 // console.log(iterator)
@@ -9,8 +11,7 @@ const listener = this.addEventListener('input', (event)=>{
     }
 });
 class ConfigurationUnit{
-  type:1,
-
+  
 }
 
 var demo1 = new autoComplete({
