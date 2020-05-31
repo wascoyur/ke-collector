@@ -20,6 +20,7 @@
     "xml-loader": "^1.2.1"
   },
   "scripts": {
+    "compile": "webpack --mode development",
     "devStart": "webpack-dev-server --mode development --open --watch",
     "build": "webpack --mode production"
   },
