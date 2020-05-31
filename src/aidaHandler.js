@@ -1,8 +1,7 @@
 export default class AidaHandler{
-	constructor(aidaFile) {
-		this.pathToFile = aidaFile
-	}
-	static getFile = (this.pathToFile) => {
-		return pathToFile
-	} 
+	static getXmlFile(fileName) {
+		let dataFile = fileName[0];
+		return dataFile;
+	};
+	 
 }
