@@ -1,13 +1,14 @@
 import './css/style.css';
-import './script'
+import './script';
+import './output';
 
 let formInputAidaFile = document.getElementById('file');
 let configurationUnit = {};
 formInputAidaFile.addEventListener('change', (ev) => {
 	ev.preventDefault;
-	let file = ev.target.file;
+	let file = ev.target.value;
 
-	fetch('../db/Report.xml')
+	fetch(file)
 		.then((response) => {
 			response.text()
 				.then((xml) => {
