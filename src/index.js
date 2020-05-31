@@ -1,4 +1,5 @@
 import './css/style.css';
+import './script'
 
 let formInputAidaFile = document.getElementById('file');
 let configurationUnit = {};

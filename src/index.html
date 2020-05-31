@@ -3,136 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.muicss.com/mui-0.10.2/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.muicss.com/mui-0.10.2/js/mui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <title>KE-collector</title>
 </head>
 <body>
-    <form action="#" method="post" class="form" name="form-name">
+    
+    <div id="sidedrawer" class="mui--no-user-select ">
+      <div id="sidedrawer-brand" class="mui--appbar-line-height">
+        <span class="mui--text-title">Brand.io</span>
+      </div>
+      <div class="mui-divider"></div>
+      <ul>
+        <li>
+          <strong>Category 1</strong>
+          <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <strong>Category 2</strong>
+          <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <strong>Category 3</strong>
+          <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <header id="header">
+      <div class="mui-appbar mui--appbar-line-height">
+        <div class="mui-container-fluid">
+          <a class="sidedrawer-toggle mui--visible-xs-inline-block mui--visible-sm-inline-block js-show-sidedrawer">☰</a>
+          <a class="sidedrawer-toggle mui--hidden-xs mui--hidden-sm js-hide-sidedrawer">☰</a>
+          <span class="mui--text-title mui--visible-xs-inline-block mui--visible-sm-inline-block">Brand.io</span>
+        </div>
+      </div>
+    </header>
+    <div id="content-wrapper">
+      <div class="mui--appbar-height"></div>
+      <div class="mui-container-fluid">
+        <br>
+        <h1>Стартовая страница</h1>
+        <p><form action="#" method="post" class="form mui-form" name="form-name">
         <fieldset>
             <legend>Загрузить готовые данные из Aida</legend>
-            <input type='file' id='file'/>
-        </fieldset>
-        <fieldset>
-            <legend>Выбор типа оборудования</legend>
-            <li class="form-row">
-                <label>Тип оборудования</label>
-                <select type="radio" size=4 name="type-eqipment" class="field">
-                    <option value="monitor">Монитор</option>
-                    <option value="systemb">Системный блок</option>
-                    <option value="printer">Принтер (МФУ)</option>
-                    <option value="notebook">Ноутбук</option>
-                </select>
-            </li>
-            <li class="form-row">
-                <label for="organisation">Наименование учреждения</label>
-                <input type="text" id="test" name="commissioning" class="field" placeholder="Юр.лицо">
-            </li>
-            <li class="form-row">
-                <label for="commissioning">Дата ввода в эксплуатацию</label>
-                <input type="date" name="date" class="field" placeholder="ввод в эксплуатацию">
-            </li>
-        </fieldset>
-        <fieldset>
-            <legend>Адресные данные</legend>
-            <li class="form-row">
-                <label for="user">ФИО Пользователя</label>
-                <input type="text" name = "user" class="field" placeholder="ФИО Пользователя">
-            </li><li class="form-row"></li>
-            <li class="form-row">
-                <label for="organ">Наименование учреждения</label>
-                <input type="text" name = "organ" class="field" placeholder="Наименование учреждения">
-            </li><li class="form-row"></li>
-            <li class="form-row">
-                <label for="city">Населенный пункт</label>
-                <input type="text" name = "city" class="field" placeholder="Населенный пункт">
-            </li>
-            <li class="form-row">
-                <label for="street">Улица</label>
-                <input type="text" name = "street" class="field" placeholder="Улица">
-            </li>
-            <li class="form-row">
-                <label for="house">Дом</label>
-                <input type="text" name = "house" class="field" placeholder="Дом">
-            </li>
-            <li class="form-row">
-                <label for="kabinet">Кабинет</label>
-                <input type="text" name = "kabinet" class="field" placeholder="Кабинет">
-            </li>
-            <li class="form-row">
-                <label for="">Владелец(Юр.лицо)</label>
-                <input type="text" name = "owner" class="field" placeholder="Владелец (Юр.лицо)">
-            </li>
-            <li class="form-row">
-                <label>Сохранить адрес?</label>
-                <input type="checkbox" name="save-addr" checked>
-            </li>
-            <li class="form-row">
-                <label>Использовать геопозицию?</label>
-                <input type="checkbox" name="geo" checked>
-            </li>
-        </fieldset>
+            <input type='file' id='file' class="mui-btn mui-btn--primary"/>
+        </fieldset></p>
+      </div>
+      
+    </div>
 
+    <table class="mui-table mui-table--bordered">
+      <thead>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cell 1-1</td>
+          <td>Cell 1-2</td>
+        </tr>
+        <tr>
+          <td>Cell 2-1</td>
+          <td>Cell 2-2</td>
+        </tr>
+      </tbody>
+    </table>
 
-<fieldset>
-    <legend>Характеристики оборудования (для SB, N)</legend>
-    <li class="form-row">
-        <label for="">Марка торговая (производитель оборудования)</label>
-        <input type="text" name="trademark" class="field" placeholder="Марка торговая">
-    </li>
-    <li class="form-row">
-        <label for="">KE</label>
-        <input type="text" name="conf-unit" class="field" placeholder="№ конфигурационной единицы">
-    </li>
-    <li class="form-row">
-        <label for="">Модель оборудования</label>
-        <input type="text" name="" class="field" placeholder="Модель оборудования">
-    </li>
-    <li class="form-row">
-        <label for="">Инвентарный номер</label>
-        <input type="text" name="inventory" class="field" placeholder="P../SB../M../N..">
-    </li>
-    <li class="form-row">
-        <label for="">Серийный номер</label>
-        <input type="text" name="serial" class="field" placeholder="">
-    </li>
-    <li class="form-row">
-        <label for="">MAC-адрес</label>
-        <input type="text" name="macaddr" class="field" placeholder="">
-    </li>
-    <li class="form-row">
-        <label for="">CPU модель</label>
-        <input type="text" name="cpumodel" class="field" placeholder="">
-    </li>
-    <li class="form-row">
-        <label for="">CPU, частота</label>
-        <input type="text" name="cpufreq" class="field" placeholder=" частота, Ггц (GHz)">
-    </li>
-    <li class="form-row">
-        <label for="">ОЗУ, емкость Gb</label>
-        <input type="text" name="ramcapacity" class="field" placeholder="ОЗУ, Gb">
-    </li>
-    <li class="form-row">
-        <label for="">ОЗУ, тип</label>
-        <input type="text" name="ramtype" class="field" placeholder="DDR1/DDR2/DDR4">
-    </li>
-    <li class="form-row">
-        <label for="">ОЗУ, слотов шт</label>
-        <input type="text" name="ramslots" class="field" placeholder=" количество слотов под память">
-    </li>
-    <li class="form-row">
-        <label for="">HDD емкость (Gb)</label>
-        <input type="text" name="hddopacity" class="field" placeholder="емкость HDD">
-    </li>
-</fieldset>
-<fieldset>
-    <legend>Характеристики оборудования(только для Мониторов)</legend>
-    <li class="form-row">
-        <label for="">Диагональ дисплея</label>
-        <input type="text" name="monitorsize" class="field" placeholder="размер диагонали в дюймах">
-    </li>
-
-</fieldset>
-
-</fieldset>
-    </form>
+    <footer id="footer">
+      <div class="mui-container-fluid">
+        <br>
+        Made with ♥ by <a href="https://www.muicss.com">MUI</a>
+      </div>
+    </footer>    
 </body>
 </html>
