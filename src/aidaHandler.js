@@ -1,27 +1,30 @@
 let convert = require('xml-js');
 export default class AidaHandler {
-	constructor(inputForm) {
-		this.form = document.getElementById(inputForm);
+	constructor() {
 		this.xmlContent = '';
 	}
-	
-	getFile() {
-		this.form.addEventListener('change', (event) => {
-			let file = event.currentTarget.files[0];
+
+	getFile(event) {
+			let file = event.target.value;
 			let reader = new FileReader();
+
 			reader.onload = function (e) {
-				this.xmlContent = e.target.result
-			}
+				console.log(e.reader.result);
+				return reader.result;
+			};
+			reader.onerror = function () {
+				console.log(reader.error);
+			};
 			reader.readAsText(file)
-		})
+
 	}
- 
+
 	convertFile(input) {
 	  let options = {compact: true, ignoreComment: true, spaces: 4};
 	  let jsObject = convert.xml2json(input, options);
 	  return jsObject;
 	}
 		// console.log(inputFile);
-	 
-			
+
+
 }

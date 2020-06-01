@@ -1,12 +1,15 @@
 import './css/style.css';
 import './script';
 import './output';
+import aidaHandler from './aidaHandler';
 
 let formInputAidaFile = document.getElementById('file');
 let configurationUnit = {};
+let getFileFromDrive = new aidaHandler();
 formInputAidaFile.addEventListener('change', (ev) => {
 	ev.preventDefault;
-	let file = ev.target.value;
+	// let file = ev.target.value;
+	let file =getFileFromDrive.getFile(ev);
 
 	fetch(file)
 		.then((response) => {
