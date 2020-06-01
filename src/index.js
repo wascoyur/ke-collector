@@ -1,24 +1,21 @@
 import './css/style.css';
 import './script';
 import './output';
-
 let formInputAidaFile = document.getElementById('file');
 let configurationUnit = {};
+let myTable = document.querySelector('table');
+
 formInputAidaFile.addEventListener('change', (ev) => {
 	ev.preventDefault;
-	let file = ev.target.value;
-
-	fetch(file)
-		.then((response) => {
-			response.text()
-				.then((xml) => {
-					let parser = new DOMParser();
-					let xmlDOM = parser.parseFromString(xml, 'application/xml');
-					let pages = xmlDOM.querySelectorAll('Item');
-					parserData(pages);
-			})
-		})
+	let file = getFileFromDrive(ev);
+	let parser = new DOMParser();
+	let xmlDOM = parser.parseFromString(file, 'application/xml');
+	let pages = xmlDOM.querySelectorAll('Item');
+	parserData(pages);
+	
 })
+
+/*=================== functions ======================  */
 function parserData(nodes) {
 	nodes.forEach(pageXmlNode => {
 		let arChildrNodes = Array.prototype.slice.call(pageXmlNode.childNodes);
@@ -27,3 +24,20 @@ function parserData(nodes) {
 		configurationUnit[title] = value;
 	})
 }
+function getFileFromDrive(event) {
+	let file = event.target.files[0];
+			let reader = new FileReader();
+
+			reader.onload = function (e) {
+				// this.xmlContent = reader.result;
+				return reader.result;
+			};
+			reader.onerror = function () {
+				console.log(reader.error);
+			};
+			reader.readAsText(file)
+}
+function viwer(data) {
+	
+}
+
