@@ -4,17 +4,18 @@ import './output';
 let formInputAidaFile = document.getElementById('file');
 let configurationUnit = {};
 let myTable = document.querySelector('table');
+let res = '';
 
 formInputAidaFile.addEventListener('change', (ev) => {
 	ev.preventDefault;
-	let file = getFileFromDrive(ev);
+	getFileFromDrive(ev);
 	let parser = new DOMParser();
-	let xmlDOM = parser.parseFromString(file, 'application/xml');
+	let xmlDOM = parser.parseFromString(res, 'application/xml');
 	let pages = xmlDOM.querySelectorAll('Item');
 	parserData(pages);
 	
 })
-
+console.log(configurationUnit);
 /*=================== functions ======================  */
 function parserData(nodes) {
 	nodes.forEach(pageXmlNode => {
@@ -24,18 +25,20 @@ function parserData(nodes) {
 		configurationUnit[title] = value;
 	})
 }
-function getFileFromDrive(event) {
+function getFileFromDrive(event) {	
 	let file = event.target.files[0];
-			let reader = new FileReader();
-
-			reader.onload = function (e) {
-				// this.xmlContent = reader.result;
-				return reader.result;
-			};
-			reader.onerror = function () {
-				console.log(reader.error);
-			};
-			reader.readAsText(file)
+	let reader = new FileReader();
+	reader.readAsText(file)
+	
+	reader.onload = function (e) {
+		console.log(reader.result);
+		let tmp = reader.result
+	 	res = tmp;
+	};
+	reader.onerror = function () {
+		console.log(reader.error);
+	};
+	
 }
 function viwer(data) {
 	
