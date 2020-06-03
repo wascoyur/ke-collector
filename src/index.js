@@ -9,8 +9,7 @@ formInputAidaFile.addEventListener('change', (ev) => {
 	let parser = new DOMParser();
 	let xmlDOM = parser.parseFromString(res, 'application/xml');
 	let pages = xmlDOM.querySelectorAll('Item');
-	parserData(pages);
-		
+	parserData(pages);		
 })
 viwer(configurationUnit);
 /*=================== functions ======================  */
@@ -21,7 +20,6 @@ function parserData(nodes) {
 		let value = pageXmlNode.childNodes[arChildrNodes.length - 1].textContent;
 		configurationUnit[title] = value;
 	})
-	console.log(configurationUnit);
 }
 function getFileFromDrive(event) {	
 	let file = event.target.files[0];
@@ -37,6 +35,8 @@ function getFileFromDrive(event) {
 	
 }
 function viwer(data) {
-	
+	// const cell = myTable.querySelector('')
+	let row = document.createElement('tr');
+	let m = myTable.insertAdjacentElement('afterbegin',row);
 }
 
