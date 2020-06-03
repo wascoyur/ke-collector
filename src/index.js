@@ -1,6 +1,3 @@
-import './css/style.css';
-import './script';
-import './output';
 let formInputAidaFile = document.getElementById('file');
 let configurationUnit = {};
 let myTable = document.querySelector('table');
