@@ -1,7 +1,7 @@
 let formInputAidaFile = document.getElementById('file');
 let configurationUnit = {};
 let myTable = document.querySelector('table');
-let res = '';
+let res = 'one';
 
 formInputAidaFile.addEventListener('change', (ev) => {
 	ev.preventDefault;
@@ -10,9 +10,9 @@ formInputAidaFile.addEventListener('change', (ev) => {
 	let xmlDOM = parser.parseFromString(res, 'application/xml');
 	let pages = xmlDOM.querySelectorAll('Item');
 	parserData(pages);
-	
+		
 })
-console.log(configurationUnit);
+viwer(configurationUnit);
 /*=================== functions ======================  */
 function parserData(nodes) {
 	nodes.forEach(pageXmlNode => {
@@ -21,19 +21,18 @@ function parserData(nodes) {
 		let value = pageXmlNode.childNodes[arChildrNodes.length - 1].textContent;
 		configurationUnit[title] = value;
 	})
+	console.log(configurationUnit);
 }
 function getFileFromDrive(event) {	
 	let file = event.target.files[0];
-	let reader = new FileReader();
-	reader.readAsText(file)
-	
+	let reader = new FileReader();	
+	reader.readAsText(file);
 	reader.onload = function (e) {
-		console.log(reader.result);
-		let tmp = reader.result
-	 	res = tmp;
+		res = reader.result
 	};
 	reader.onerror = function () {
 		console.log(reader.error);
+		console.log('tic');
 	};
 	
 }
