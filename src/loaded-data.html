@@ -2,11 +2,57 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.muicss.com/mui-0.10.2/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css"> 
 	<title>Document</title>
 </head>
 <body>
-	<fieldset>
+<div id="sidedrawer" class="mui--no-user-select ">
+      <div id="sidedrawer-brand" class="mui--appbar-line-height">
+        <span>
+            <a class="mui--text-title" href="../index.html">В начало</a>
+        </span>
+      </div>
+      <div class="mui-divider"></div>
+      <ul>
+        <li>
+          <strong link="">Занные из Aida</strong>
+          <ul>
+            <li><a href="src/loaded-data.html">Данные из Aida</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <strong>Category 2</strong>
+          <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <strong>Category 3</strong>
+          <ul>
+            <li><a href="#">Item 1</a></li>
+            <li><a href="#">Item 2</a></li>
+            <li><a href="#">Item 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+<header id="header">
+  <div class="mui-appbar mui--appbar-line-height">
+    <div class="mui-container-fluid">
+      <a class="sidedrawer-toggle mui--visible-xs-inline-block mui--visible-sm-inline-block js-show-sidedrawer">☰</a>
+      <a class="sidedrawer-toggle mui--hidden-xs mui--hidden-sm js-hide-sidedrawer">☰</a>
+      <span class="mui--text-title mui--visible-xs-inline-block">Brand.io</span>
+    </div>
+  </div>
+</header>
+<div id="content-wrapper">
+  <fieldset>
             <legend>Выбор типа оборудования</legend>
             <li class="form-row">
                 <label>Тип оборудования</label>
@@ -65,69 +111,71 @@
                 <input type="checkbox" name="geo" checked>
             </li>
         </fieldset>
+        <fieldset>
+            <legend>Характеристики оборудования (для SB, N)</legend>
+            <li class="form-row">
+                <label for="">Марка торговая (производитель оборудования)</label>
+                <input type="text" name="trademark" class="field" placeholder="Марка торговая">
+            </li>
+            <li class="form-row">
+                <label for="">KE</label>
+                <input type="text" name="conf-unit" class="field" placeholder="№ конфигурационной единицы">
+            </li>
+            <li class="form-row">
+                <label for="">Модель оборудования</label>
+                <input type="text" name="" class="field" placeholder="Модель оборудования">
+            </li>
+            <li class="form-row">
+                <label for="">Инвентарный номер</label>
+                <input type="text" name="inventory" class="field" placeholder="P../SB../M../N..">
+            </li>
+            <li class="form-row">
+                <label for="">Серийный номер</label>
+                <input type="text" name="serial" class="field" placeholder="">
+            </li>
+            <li class="form-row">
+                <label for="">MAC-адрес</label>
+                <input type="text" name="macaddr" class="field" placeholder="">
+            </li>
+            <li class="form-row">
+                <label for="">CPU модель</label>
+                <input type="text" name="cpumodel" class="field" placeholder="">
+            </li>
+            <li class="form-row">
+                <label for="">CPU, частота</label>
+                <input type="text" name="cpufreq" class="field" placeholder=" частота, Ггц (GHz)">
+            </li>
+            <li class="form-row">
+                <label for="">ОЗУ, емкость Gb</label>
+                <input type="text" name="ramcapacity" class="field" placeholder="ОЗУ, Gb">
+            </li>
+            <li class="form-row">
+                <label for="">ОЗУ, тип</label>
+                <input type="text" name="ramtype" class="field" placeholder="DDR1/DDR2/DDR4">
+            </li>
+            <li class="form-row">
+                <label for="">ОЗУ, слотов шт</label>
+                <input type="text" name="ramslots" class="field" placeholder=" количество слотов под память">
+            </li>
+            <li class="form-row">
+                <label for="">HDD емкость (Gb)</label>
+                <input type="text" name="hddopacity" class="field" placeholder="емкость HDD">
+            </li>
+        </fieldset>
+        <fieldset>
+            <legend>Характеристики оборудования(только для Мониторов)</legend>
+            <li class="form-row">
+                <label for="">Диагональ дисплея</label>
+                <input type="text" name="monitorsize" class="field" placeholder="размер диагонали в дюймах">
+            </li>
+        </fieldset>
+</div>
+<footer id="footer">
+  
+</footer>
 
-
-<fieldset>
-    <legend>Характеристики оборудования (для SB, N)</legend>
-    <li class="form-row">
-        <label for="">Марка торговая (производитель оборудования)</label>
-        <input type="text" name="trademark" class="field" placeholder="Марка торговая">
-    </li>
-    <li class="form-row">
-        <label for="">KE</label>
-        <input type="text" name="conf-unit" class="field" placeholder="№ конфигурационной единицы">
-    </li>
-    <li class="form-row">
-        <label for="">Модель оборудования</label>
-        <input type="text" name="" class="field" placeholder="Модель оборудования">
-    </li>
-    <li class="form-row">
-        <label for="">Инвентарный номер</label>
-        <input type="text" name="inventory" class="field" placeholder="P../SB../M../N..">
-    </li>
-    <li class="form-row">
-        <label for="">Серийный номер</label>
-        <input type="text" name="serial" class="field" placeholder="">
-    </li>
-    <li class="form-row">
-        <label for="">MAC-адрес</label>
-        <input type="text" name="macaddr" class="field" placeholder="">
-    </li>
-    <li class="form-row">
-        <label for="">CPU модель</label>
-        <input type="text" name="cpumodel" class="field" placeholder="">
-    </li>
-    <li class="form-row">
-        <label for="">CPU, частота</label>
-        <input type="text" name="cpufreq" class="field" placeholder=" частота, Ггц (GHz)">
-    </li>
-    <li class="form-row">
-        <label for="">ОЗУ, емкость Gb</label>
-        <input type="text" name="ramcapacity" class="field" placeholder="ОЗУ, Gb">
-    </li>
-    <li class="form-row">
-        <label for="">ОЗУ, тип</label>
-        <input type="text" name="ramtype" class="field" placeholder="DDR1/DDR2/DDR4">
-    </li>
-    <li class="form-row">
-        <label for="">ОЗУ, слотов шт</label>
-        <input type="text" name="ramslots" class="field" placeholder=" количество слотов под память">
-    </li>
-    <li class="form-row">
-        <label for="">HDD емкость (Gb)</label>
-        <input type="text" name="hddopacity" class="field" placeholder="емкость HDD">
-    </li>
-</fieldset>
-<fieldset>
-    <legend>Характеристики оборудования(только для Мониторов)</legend>
-    <li class="form-row">
-        <label for="">Диагональ дисплея</label>
-        <input type="text" name="monitorsize" class="field" placeholder="размер диагонали в дюймах">
-    </li>
-
-</fieldset>
-
-</fieldset>
-    </form>
+	<script src="https://cdn.muicss.com/mui-0.10.2/js/mui.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="script.js"></script> 
 </body>
 </html>

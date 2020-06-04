@@ -10,7 +10,7 @@ formInputAidaFile.addEventListener('change', (ev) => {
 	let xmlDOM = parser.parseFromString(res, 'application/xml');
 	let pages = xmlDOM.querySelectorAll('Item');
 	parserData(pages);	
-	viwer(configurationUnit);
+	viewer(configurationUnit);
 })
 
 /*=================== functions ======================  */
@@ -36,7 +36,7 @@ function getFileFromDrive(event) {
 	};
 	
 }
-function viwer(data) {
+function viewer(data) {
 	const tbody = myTable.querySelector('tbody')	
 	for (const key in data) {
 		let row = document.createElement('tr');	
