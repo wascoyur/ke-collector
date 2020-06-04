@@ -9,9 +9,10 @@ formInputAidaFile.addEventListener('change', (ev) => {
 	let parser = new DOMParser();
 	let xmlDOM = parser.parseFromString(res, 'application/xml');
 	let pages = xmlDOM.querySelectorAll('Item');
-	parserData(pages);		
+	parserData(pages);	
+	viwer(configurationUnit);
 })
-viwer(configurationUnit);
+
 /*=================== functions ======================  */
 function parserData(nodes) {
 	nodes.forEach(pageXmlNode => {
@@ -20,6 +21,7 @@ function parserData(nodes) {
 		let value = pageXmlNode.childNodes[arChildrNodes.length - 1].textContent;
 		configurationUnit[title] = value;
 	})
+	console.log('psd');
 }
 function getFileFromDrive(event) {	
 	let file = event.target.files[0];
@@ -35,8 +37,19 @@ function getFileFromDrive(event) {
 	
 }
 function viwer(data) {
-	// const cell = myTable.querySelector('')
-	let row = document.createElement('tr');
-	let m = myTable.insertAdjacentElement('afterbegin',row);
+	const tbody = myTable.querySelector('tbody')	
+	for (const key in data) {
+		let row = document.createElement('tr');	
+		let cell1 = document.createElement('td');		
+		cell1.textContent = key;
+		let cell2 = document.createElement('td');
+		cell2.textContent = data[key];
+		row.insertAdjacentElement('afterbegin', cell2);
+		row.insertAdjacentElement('afterbegin', cell1);
+		tbody.insertAdjacentElement('afterbegin',row);		
+	}
+	
+	
+	
 }
 
