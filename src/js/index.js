@@ -1,11 +1,8 @@
 console.log('start');
-import {myNavbar} from "./js/my-navbar.js";
 let formInputAidaFile = document.getElementById('file');
 let configurationUnit = {};
-let myTable = document.querySelector('table');
+let myTable = document.querySelector('tabl	e');
 let res = 'one';
-
-document.querySelector('body').insertAdjacentHTML(myNavbar());
 
 formInputAidaFile.addEventListener('change', (ev) => {
 	ev.preventDefault;
