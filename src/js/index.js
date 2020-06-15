@@ -1,7 +1,11 @@
+console.log('start');
+import {myNavbar} from "./js/my-navbar.js";
 let formInputAidaFile = document.getElementById('file');
 let configurationUnit = {};
 let myTable = document.querySelector('table');
 let res = 'one';
+
+document.querySelector('body').insertAdjacentHTML(myNavbar());
 
 formInputAidaFile.addEventListener('change', (ev) => {
 	ev.preventDefault;
@@ -9,7 +13,7 @@ formInputAidaFile.addEventListener('change', (ev) => {
 	let parser = new DOMParser();
 	let xmlDOM = parser.parseFromString(res, 'application/xml');
 	let pages = xmlDOM.querySelectorAll('Item');
-	parserData(pages);	
+	parserData(pages);
 	viewer(configurationUnit);
 })
 
@@ -23,9 +27,9 @@ function parserData(nodes) {
 	})
 	console.log('psd');
 }
-function getFileFromDrive(event) {	
+function getFileFromDrive(event) {
 	let file = event.target.files[0];
-	let reader = new FileReader();	
+	let reader = new FileReader();
 	reader.readAsText(file);
 	reader.onload = function (e) {
 		res = reader.result
@@ -34,22 +38,21 @@ function getFileFromDrive(event) {
 		console.log(reader.error);
 		console.log('tic');
 	};
-	
+
 }
 function viewer(data) {
-	const tbody = myTable.querySelector('tbody')	
+	const tbody = myTable.querySelector('tbody')
 	for (const key in data) {
-		let row = document.createElement('tr');	
-		let cell1 = document.createElement('td');		
+		let row = document.createElement('tr');
+		let cell1 = document.createElement('td');
 		cell1.textContent = key;
 		let cell2 = document.createElement('td');
 		cell2.textContent = data[key];
 		row.insertAdjacentElement('afterbegin', cell2);
 		row.insertAdjacentElement('afterbegin', cell1);
-		tbody.insertAdjacentElement('afterbegin',row);		
+		tbody.insertAdjacentElement('afterbegin',row);
 	}
-	
-	
-	
-}
 
+
+
+}
