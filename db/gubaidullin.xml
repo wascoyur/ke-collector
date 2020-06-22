@@ -1,0 +1,2234 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<Report>
+<Lang>ru</Lang>
+<Page><Title>Отчёт</Title><Icon>151</Icon>
+<Item><Title>Версия</Title><Icon>151</Icon><ID>257</ID><Value>AIDA64 v5.99.4900/ru</Value></Item>
+<Item><Title>Тестовый модуль</Title><Icon>151</Icon><ID>266</ID><Value>4.3.793-x64</Value></Item>
+<Item><Title>Домашняя страница</Title><Icon>120</Icon><ID>259</ID><Value>http://www.aida64.com/</Value></Item>
+<Item><Title>Тип отчёта</Title><Icon>73</Icon><ID>260</ID><Value>Мастер отчётов</Value></Item>
+<Item><Title>Компьютер</Title><Icon>12</Icon><ID>261</ID><Value>GUBAIDULLIN-RV</Value></Item>
+<Item><Title>Генератор</Title><Icon>48</Icon><ID>262</ID><Value>vasilev_yv</Value></Item>
+<Item><Title>Операционная система</Title><Icon>110</Icon><ID>263</ID><Value>Microsoft Windows 7 Ultimate 6.1.7601.24387 (Win7 RTM)</Value></Item>
+<Item><Title>Дата</Title><Icon>16</Icon><ID>264</ID><Value>2020-06-01</Value></Item>
+<Item><Title>Время</Title><Icon>97</Icon><ID>265</ID><Value>15:58</Value></Item>
+</Page>
+<Page><Title>ЦП</Title><Icon>66</Icon><MenuTitle>Системная плата</MenuTitle><MenuIcon>77</MenuIcon>
+<Group><Title>Свойства ЦП</Title><Icon>66</Icon>
+<Item><Title>Тип ЦП</Title><Icon>66</Icon><Value>DualCore AMD A6-6400K, 4100 MHz (41 x 100)</Value></Item>
+<Item><Title>Псевдоним ЦП</Title><Icon>66</Icon><Value>Richland</Value></Item>
+<Item><Title>Степпинг ЦП</Title><Icon>66</Icon><Value>RL-A1</Value></Item>
+<Item><Title>Наборы инструкций</Title><Icon>66</Icon><Value>x86, x86-64, MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, SSE4A, XOP, AVX, FMA, FMA4, AES</Value></Item>
+<Item><Title>Исходная частота</Title><Icon>66</Icon><Value>3900 МГц</Value></Item>
+<Item><Title>Мин./макс. множитель ЦП</Title><Icon>66</Icon><Value>8x / 63x</Value></Item>
+<Item><Title>Engineering Sample</Title><Icon>66</Icon><Value>Нет</Value></Item>
+<Item><Title>Кэш L1 кода</Title><Icon>9</Icon><Value>64 КБ per module</Value></Item>
+<Item><Title>Кэш L1 данных</Title><Icon>9</Icon><Value>16 КБ per core</Value></Item>
+<Item><Title>Кэш L2</Title><Icon>9</Icon><Value>1 МБ per module  (On-Die, ECC, Full-Speed)</Value></Item>
+</Group>
+<Group><Title>Физическая информация о ЦП</Title><Icon>66</Icon>
+<Item><Title>Тип корпуса</Title><Icon>66</Icon><Value>904 Pin uOPGA</Value></Item>
+<Item><Title>Размеры корпуса</Title><Icon>66</Icon><Value>40 mm x 40 mm</Value></Item>
+<Item><Title>Технологический процесс</Title><Icon>66</Icon><Value>11Mi, 32 nm CMOS, Cu, HKMG, SOI, Immersion Lithography</Value></Item>
+<Item><Title>Напряжение питания ядра</Title><Icon>132</Icon><Value>0.938 - 1.450 V</Value></Item>
+<Item><Title>Типичная мощность</Title><Icon>132</Icon><Value>65.0 W</Value></Item>
+</Group>
+<Group><Title>Производитель ЦП</Title><Icon>66</Icon>
+<Item><Title>Фирма</Title><Icon>66</Icon><Value>Advanced Micro Devices, Inc.</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>66</Icon><Value>http://www.amd.com/en-us/products/processors/desktop</Value></Item>
+<Item><Title>Обновление драйверов</Title><Icon>91</Icon><Value>http://www.aida64.com/driver-updates</Value></Item>
+</Group>
+<Group><Title>Multi CPU</Title><Icon>66</Icon>
+<Item><Title>ID системной платы</Title><Icon>66</Icon><Value>A M I ALASKA</Value></Item>
+<Item><Title>CPU #1</Title><Icon>66</Icon><Value>AMD A6-6400K APU with Radeon(tm) HD Graphics, 3892 МГц</Value></Item>
+<Item><Title>CPU #2</Title><Icon>66</Icon><Value>AMD A6-6400K APU with Radeon(tm) HD Graphics, 3893 МГц</Value></Item>
+</Group>
+<Group><Title>Загрузка ЦП</Title><Icon>137</Icon>
+<Item><Title>ЦП 1 / Ядро 1</Title><Icon>66</Icon><ID>1</ID><Value>0%</Value></Item>
+<Item><Title>ЦП 1 / Ядро 2</Title><Icon>66</Icon><ID>2</ID><Value>0%</Value></Item>
+</Group>
+</Page>
+<Page><Title>CPUID</Title><Icon>66</Icon><MenuTitle>Системная плата</MenuTitle><MenuIcon>77</MenuIcon>
+<Group><Title>Свойства CPUID</Title><Icon>66</Icon>
+<Item><Title>Производитель CPUID</Title><Icon>66</Icon><Value>AuthenticAMD</Value></Item>
+<Item><Title>Имя ЦП CPUID</Title><Icon>66</Icon><Value>AMD A6-6400K APU with Radeon(tm) HD Graphics</Value></Item>
+<Item><Title>Версия CPUID</Title><Icon>66</Icon><Value>00610F31h</Value></Item>
+<Item><Title>Расширенная версия CPUID</Title><Icon>66</Icon><Value>00610F31h</Value></Item>
+<Item><Title>Идентификатор платформы</Title><Icon>66</Icon><Value>D0h  (Socket FM2)</Value></Item>
+<Item><Title>Версия обновления микрокода</Title><Icon>66</Icon><Value>06001119h</Value></Item>
+<Item><Title>SMT / CMP</Title><Icon>66</Icon><Value>0 / 2</Value></Item>
+<Item><Title>HTC Temperature Limit (TctlMax)</Title><Icon>131</Icon><Value>70 °C  (158 °F)</Value></Item>
+<Item><Title>CPU Thermal Design Power</Title><Icon>132</Icon><Value>65 W</Value></Item>
+<Item><Title>Socket / Min / Max / Target TDP</Title><Icon>132</Icon><Value>65.0 W / 65.0 W / 65.0 W / 65.0 W</Value></Item>
+</Group>
+<Group><Title>Наборы инструкций</Title><Icon>66</Icon>
+<Item><Title>64-бит x86-расширение (AMD64, Intel64)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>AMD 3DNow!</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>AMD 3DNow! Professional</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>AMD 3DNowPrefetch</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>AMD Enhanced 3DNow!</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>AMD Extended MMX</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>AMD FMA4</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>AMD MisAligned SSE</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>AMD SSE4A</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>AMD XOP</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>Cyrix Extended MMX</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Enhanced REP MOVSB/STOSB</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Galois Field New Instructions (GFNI)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Float-16 Conversion Instructions</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>IA-64</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AES Extensions</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>IA AVX</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>IA AVX2</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 (AVX512F)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 4x Fused Multiply-Add Single Precision (AVX512_4FMAPS)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 4x Neural Network Instructions (AVX512_4VNNIW)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 52-bit Integer Multiply-Add Instructions (AVX512_IFMA)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 Bit Algorithm (AVX512_BITALG)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 Byte and Word Instructions (AVX512BW)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 Conflict Detection Instructions (AVX512CD)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 Doubleword and Quadword Instructions (AVX512DQ)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 Exponential and Reciprocal Instructions (AVX512ER)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 Neural Network Instructions (AVX512_VNNI)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 Prefetch Instructions (AVX512PF)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 Vector Bit Manipulation Instructions (AVX512_VBMI)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 Vector Bit Manipulation Instructions 2 (AVX512_VBMI2)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 Vector Length Extensions (AVX512VL)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA AVX-512 VPOPCNTDQ</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA BMI1</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>IA BMI2</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA FMA</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>IA MMX</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>IA SHA Extensions</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>IA SSE</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>IA SSE2</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>IA SSE3</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>IA Supplemental SSE3</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>IA SSE4.1</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>IA SSE4.2</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Vector AES (VAES)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>VIA Alternate Instruction Set</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция ADCX / ADOX</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция CLDEMOTE</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция CLFLUSH</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция CLFLUSHOPT</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция CLWB</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция CLZERO</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция CMPXCHG8B</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция CMPXCHG16B</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция Conditional Move</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция Fast Short REP MOV</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция INVPCID</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция LAHF / SAHF</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция LZCNT</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция MONITOR / MWAIT</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция MONITORX / MWAITX</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция MOVBE</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция MOVDIR64B</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция MOVDIRI</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция PCLMULQDQ</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция PCOMMIT</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция PCONFIG</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция POPCNT</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция PREFETCHWT1</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция PTWRITE</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция RDFSBASE / RDGSBASE / WRFSBASE / WRGSBASE</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция RDRAND</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция RDSEED</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция RDTSCP</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция SKINIT / STGI</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция SYSCALL / SYSRET</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция SYSENTER / SYSEXIT</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Trailing Bit Manipulation Instructions</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Инструкция VIA FEMMS</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция VPCLMULQDQ</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция WBNOINVD</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+</Group>
+<Group><Title>Функции безопасности</Title><Icon>80</Icon>
+<Item><Title>Advanced Cryptography Engine (ACE)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Advanced Cryptography Engine 2 (ACE2)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Control-flow Enforcement Technology (CET)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Запрет исполнения данных (DEP, NX, EDB)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Enhanced Indirect Branch Restricted Speculation</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Hardware Random Number Generator (RNG)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Hardware Random Number Generator 2 (RNG2)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Indirect Branch Predictor Barrier (IBPB)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Indirect Branch Restricted Speculation (IBRS)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>L1D Flush</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Memory Protection Extensions (MPX)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>PadLock Hash Engine (PHE)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>PadLock Hash Engine 2 (PHE2)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>PadLock Montgomery Multiplier (PMM)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>PadLock Montgomery Multiplier 2 (PMM2)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Серийный номер процессора (PSN)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Protection Keys for User-Mode Pages (PKU)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Read Processor ID (RDPID)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Safer Mode Extensions (SMX)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Secure Memory Encryption (SME)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>SGX Launch Configuration (SGX_LC)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Software Guard Extensions (SGX)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Single Thread Indirect Branch Predictors (STIBP)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Speculative Store Bypass Disable (SSBD)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Supervisor Mode Access Prevention (SMAP)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Supervisor Mode Execution Protection (SMEP)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Total Memory Encyption (TME)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>User-Mode Instruction Prevention (UMIP)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+</Group>
+<Group><Title>Функции электропитания</Title><Icon>3</Icon>
+<Item><Title>APM Power Reporting</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Application Power Management (APM)</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>Automatic Clock Control</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Configurable TDP (cTDP)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Connected Standby</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Core C6 State (CC6)</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>Digital Thermometer</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Dynamic FSB Frequency Switching</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Enhanced Halt State (C1E)</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>Enhanced SpeedStep Technology (EIST, ESS)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Frequency ID Control</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Hardware P-State Control</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Hardware Thermal Control (HTC)</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>LongRun</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>LongRun Table Interface</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Overstress</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Package C6 State (PC6)</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>Parallax</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>PowerSaver 1.0</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>PowerSaver 2.0</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>PowerSaver 3.0</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Processor Duty Cycle Control</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Running Average Power Limit (RAPL)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Software Thermal Control</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>SpeedShift (SST, HWP)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Термодиод</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Thermal Monitor 1</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Thermal Monitor 2</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Thermal Monitor 3</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Thermal Monitoring</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Thermal Trip</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Voltage ID Control</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+</Group>
+<Group><Title>Функции виртуализации</Title><Icon>66</Icon>
+<Item><Title>AMD Virtual Interrupt Controller (AVIC)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Decode Assists</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Encrypted Microcode Patch</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Encrypted State (SEV-ES)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Extended Page Table (EPT)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Flush by ASID</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Hypervisor</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>Инструкция INVEPT</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Инструкция INVVPID</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>LBR Virtualization</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Nested Paging (NPT, RVI)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>NRIP Save (NRIPS)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>PAUSE Filter Threshold</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>PAUSE Intercept Filter</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Secure Encrypted Virtualization (SEV)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Secure Virtual Machine (SVM, Pacifica)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>SVM Lock (SVML)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Virtualized GIF (vGIF)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Virtualized VMLOAD and VMSAVE</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Virtual Machine Extensions (VMX, Vanderpool)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Virtual Processor ID (VPID)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>VMCB Clean Bits</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+</Group>
+<Group><Title>Функции CPUID</Title><Icon>66</Icon>
+<Item><Title>1 GB Page Size</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>36-bit Page Size Extension</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>5-Level Paging</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>64-bit DS Area</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Adaptive Overclocking</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Address Region Registers (ARR)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Code and Data Prioritization Technology (CDP)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Core Performance Boost (CPB)</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>Core Performance Counters</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>CPL Qualified Debug Store</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Data Breakpoint Extension</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Debug Trace Store</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Debugging Extension</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Deprecated FPU CS and FPU DS</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Direct Cache Access</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Dynamic Acceleration Technology (IDA)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Dynamic Configurable TDP (DcTDP)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Extended APIC Register Space</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Fast Save &amp; Restore</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Hardware Lock Elision (HLE)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Hybrid Boost</Title><Icon>145</Icon><Value>Поддерживается, Разрешено</Value></Item>
+<Item><Title>Hyper-Threading Technology (HTT)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Instruction Based Sampling</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Invariant Time Stamp Counter</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>L1 Context ID</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>L2I Performance Counters</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Lightweight Profiling</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Local APIC On Chip</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Machine Check Architecture (MCA)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Machine Check Exception (MCE)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Memory Configuration Registers (MCR)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Memory Type Range Registers (MTRR)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Model Specific Registers (MSR)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>NB Performance Counters</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Page Attribute Table (PAT)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Page Global Extension</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Page Size Extension (PSE)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Pending Break Event (PBE)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Performance Time Stamp Counter (PTSC)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Physical Address Extension (PAE)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Platform Quality of Service Enforcement (PQE)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Platform Quality of Service Monitoring (PQM)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Process Context Identifiers (PCID)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Processor Feedback Interface</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Processor Trace (PT)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Restricted Transactional Memory (RTM)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Self-Snoop</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Time Stamp Counter (TSC)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Time Stamp Counter Adjust</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Turbo Boost</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Turbo Boost Max 3.0</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Virtual Mode Extension</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Watchdog Timer</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>x2APIC</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>XGETBV / XSETBV OS Enabled</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>XSAVE / XRSTOR / XSETBV / XGETBV Extended States</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>XSAVEOPT</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+</Group>
+</Page>
+<Page><Title>Системная плата</Title><Icon>77</Icon><MenuTitle>Системная плата</MenuTitle><MenuIcon>77</MenuIcon>
+<Group><Title>Свойства системной платы</Title><Icon>77</Icon>
+<Item><Title>ID системной платы</Title><Icon>77</Icon><Value>63-0100-000001-00101111-121412-Chipset$A1161130_BIOS DATE: 08/01/14 17:41:25 VER: 04.06.05</Value></Item>
+<Item><Title>Системная плата</Title><Icon>77</Icon><Value>ASRock FM2A58M-VG3+ R2.0</Value></Item>
+</Group>
+<Group><Title>Свойства шины FSB</Title><Icon>77</Icon>
+<Item><Title>Тип шины</Title><Icon>77</Icon><Value>AMD K15.1</Value></Item>
+<Item><Title>Реальная частота</Title><Icon>77</Icon><Value>100 МГц</Value></Item>
+<Item><Title>Эффективная частота</Title><Icon>77</Icon><Value>100 МГц</Value></Item>
+<Item><Title>Частота северного моста</Title><Icon>9</Icon><Value>1500 МГц</Value></Item>
+</Group>
+<Group><Title>Свойства шины памяти</Title><Icon>50</Icon>
+<Item><Title>Тип шины</Title><Icon>50</Icon><Value>Dual DDR3 SDRAM</Value></Item>
+<Item><Title>Ширина шины</Title><Icon>50</Icon><Value>128 бит</Value></Item>
+<Item><Title>Соотношение DRAM:FSB</Title><Icon>50</Icon><Value>20:3</Value></Item>
+<Item><Title>Реальная частота</Title><Icon>50</Icon><Value>667 МГц (DDR)</Value></Item>
+<Item><Title>Эффективная частота</Title><Icon>50</Icon><Value>1333 МГц</Value></Item>
+<Item><Title>Пропускная способность</Title><Icon>50</Icon><Value>21333 МБ/с</Value></Item>
+</Group>
+<Group><Title>Физическая информация о системной плате</Title><Icon>77</Icon>
+<Item><Title>Число гнёзд для ЦП</Title><Icon>66</Icon><Value>1 Socket FM2+</Value></Item>
+<Item><Title>Разъёмы расширения</Title><Icon>19</Icon><Value>1 PCI-E x1, 1 PCI-E x16</Value></Item>
+<Item><Title>Разъёмы ОЗУ</Title><Icon>50</Icon><Value>2 DDR3 DIMM</Value></Item>
+<Item><Title>Встроенные устройства</Title><Icon>19</Icon><Value>Audio, Video, Gigabit LAN</Value></Item>
+<Item><Title>Форм-фактор</Title><Icon>77</Icon><Value>Micro ATX</Value></Item>
+<Item><Title>Размеры системной платы</Title><Icon>77</Icon><Value>170 mm x 190 mm</Value></Item>
+<Item><Title>Чипсет системной платы</Title><Icon>9</Icon><Value>A58</Value></Item>
+</Group>
+<Group><Title>Производитель системной платы</Title><Icon>77</Icon>
+<Item><Title>Фирма</Title><Icon>77</Icon><Value>ASRock Inc.</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>77</Icon><Value>http://www.asrock.com/mb/index.asp?s=n</Value></Item>
+<Item><Title>Загрузка обновлений BIOS</Title><Icon>77</Icon><Value>http://www.asrock.com/support/download.asp?cat=BIOS</Value></Item>
+<Item><Title>Обновление драйверов</Title><Icon>91</Icon><Value>http://www.aida64.com/driver-updates</Value></Item>
+<Item><Title>Модернизации BIOS</Title><Icon>143</Icon><Value>http://www.aida64.com/bios-updates</Value></Item>
+</Group>
+</Page>
+<Page><Title>Память</Title><Icon>50</Icon><MenuTitle>Системная плата</MenuTitle><MenuIcon>77</MenuIcon>
+<Group><Title>Физическая память</Title><Icon>50</Icon>
+<Item><Title>Всего</Title><Icon>50</Icon><Value>8117 МБ</Value></Item>
+<Item><Title>Занято</Title><Icon>50</Icon><Value>5598 МБ</Value></Item>
+<Item><Title>Свободно</Title><Icon>50</Icon><Value>2519 МБ</Value></Item>
+<Item><Title>Загрузка</Title><Icon>50</Icon><Value>69 %</Value></Item>
+</Group>
+<Group><Title>Виртуальная память</Title><Icon>110</Icon>
+<Item><Title>Всего</Title><Icon>110</Icon><Value>16232 МБ</Value></Item>
+<Item><Title>Занято</Title><Icon>110</Icon><Value>7629 МБ</Value></Item>
+<Item><Title>Свободно</Title><Icon>110</Icon><Value>8603 МБ</Value></Item>
+<Item><Title>Загрузка</Title><Icon>110</Icon><Value>47 %</Value></Item>
+</Group>
+<Group><Title>Файл подкачки</Title><Icon>21</Icon>
+<Item><Title>Файл подкачки</Title><Icon>21</Icon><Value>C:\pagefile.sys</Value></Item>
+<Item><Title>Текущий размер</Title><Icon>21</Icon><Value>8116 МБ</Value></Item>
+<Item><Title>Текущая/пиковая загрузка</Title><Icon>21</Icon><Value>1089 МБ / 2617 МБ</Value></Item>
+<Item><Title>Загрузка</Title><Icon>21</Icon><Value>13 %</Value></Item>
+</Group>
+<Group><Title>Physical Address Extension (PAE)</Title><Icon>50</Icon>
+<Item><Title>Поддерживается ОС</Title><Icon>110</Icon><Value>Да</Value></Item>
+<Item><Title>Поддерживается ЦП</Title><Icon>66</Icon><Value>Да</Value></Item>
+<Item><Title>Активный</Title><Icon>50</Icon><Value>Да</Value></Item>
+</Group>
+</Page>
+<Page><Title>SPD</Title><Icon>50</Icon><MenuTitle>Системная плата</MenuTitle><MenuIcon>77</MenuIcon>
+<Device><Title>DIMM1: AMD R534G1601U1S</Title><Icon>50</Icon>
+<Group><Title>Свойства модуля памяти</Title><Icon>50</Icon>
+<Item><Title>Имя модуля</Title><Icon>50</Icon><Value>AMD R534G1601U1S</Value></Item>
+<Item><Title>Серийный номер</Title><Icon>50</Icon><Value>Нет</Value></Item>
+<Item><Title>Размер модуля</Title><Icon>50</Icon><Value>4 ГБ (1 rank, 8 banks)</Value></Item>
+<Item><Title>Тип модуля</Title><Icon>50</Icon><Value>Unbuffered DIMM</Value></Item>
+<Item><Title>Тип памяти</Title><Icon>50</Icon><Value>DDR3 SDRAM</Value></Item>
+<Item><Title>Скорость памяти</Title><Icon>50</Icon><Value>DDR3-1600 (800 МГц)</Value></Item>
+<Item><Title>Ширина модуля</Title><Icon>50</Icon><Value>64 bit</Value></Item>
+<Item><Title>Напряжение модуля</Title><Icon>132</Icon><Value>1.5 V</Value></Item>
+<Item><Title>Метод обнаружения ошибок</Title><Icon>85</Icon><Value>Нет</Value></Item>
+<Item><Title>Частота регенерации</Title><Icon>50</Icon><Value>Норма (7.8 us)</Value></Item>
+</Group>
+<Group><Title>Тайминги памяти</Title><Icon>50</Icon>
+<Item><Title>@ 800 МГц</Title><Icon>50</Icon><Value>11-11-11-28  (CL-RCD-RP-RAS) / 39-208-5-12-6-6-24  (RC-RFC-RRD-WR-WTR-RTP-FAW)</Value></Item>
+<Item><Title>@ 761 МГц</Title><Icon>50</Icon><Value>10-10-10-27  (CL-RCD-RP-RAS) / 37-199-5-12-6-6-23  (RC-RFC-RRD-WR-WTR-RTP-FAW)</Value></Item>
+<Item><Title>@ 685 МГц</Title><Icon>50</Icon><Value>9-9-9-24  (CL-RCD-RP-RAS) / 33-179-5-11-6-6-21  (RC-RFC-RRD-WR-WTR-RTP-FAW)</Value></Item>
+<Item><Title>@ 609 МГц</Title><Icon>50</Icon><Value>8-8-8-22  (CL-RCD-RP-RAS) / 30-159-4-10-5-5-19  (RC-RFC-RRD-WR-WTR-RTP-FAW)</Value></Item>
+<Item><Title>@ 533 МГц</Title><Icon>50</Icon><Value>7-7-7-19  (CL-RCD-RP-RAS) / 26-139-4-8-4-4-16  (RC-RFC-RRD-WR-WTR-RTP-FAW)</Value></Item>
+<Item><Title>@ 457 МГц</Title><Icon>50</Icon><Value>6-6-6-16  (CL-RCD-RP-RAS) / 22-119-3-7-4-4-14  (RC-RFC-RRD-WR-WTR-RTP-FAW)</Value></Item>
+</Group>
+<Group><Title>Функции модуля памяти</Title><Icon>50</Icon>
+<Item><Title>Auto Self Refresh (ASR)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>DLL-Off Mode</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Extended Temperature Range</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Extended Temperature 1X Refresh Rate</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Module Thermal Sensor</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>On-Die Thermal Sensor Readout (ODTS)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Partial Array Self Refresh (PASR)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>RZQ/6</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>RZQ/7</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+</Group>
+</Device>
+<Device><Title>DIMM2: Kingston 99U5474-028.A00LF</Title><Icon>50</Icon>
+<Group><Title>Свойства модуля памяти</Title><Icon>50</Icon>
+<Item><Title>Имя модуля</Title><Icon>50</Icon><Value>Kingston 99U5474-028.A00LF</Value></Item>
+<Item><Title>Серийный номер</Title><Icon>50</Icon><Value>6B28746Dh (1836329067)</Value></Item>
+<Item><Title>Дата выпуска</Title><Icon>50</Icon><Value>Неделя 29 / 2016</Value></Item>
+<Item><Title>Размер модуля</Title><Icon>50</Icon><Value>4 ГБ (1 rank, 8 banks)</Value></Item>
+<Item><Title>Тип модуля</Title><Icon>50</Icon><Value>Unbuffered DIMM</Value></Item>
+<Item><Title>Тип памяти</Title><Icon>50</Icon><Value>DDR3 SDRAM</Value></Item>
+<Item><Title>Скорость памяти</Title><Icon>50</Icon><Value>DDR3-1333 (667 МГц)</Value></Item>
+<Item><Title>Ширина модуля</Title><Icon>50</Icon><Value>64 bit</Value></Item>
+<Item><Title>Напряжение модуля</Title><Icon>132</Icon><Value>1.5 V</Value></Item>
+<Item><Title>Метод обнаружения ошибок</Title><Icon>85</Icon><Value>Нет</Value></Item>
+<Item><Title>Частота регенерации</Title><Icon>50</Icon><Value>Норма (7.8 us)</Value></Item>
+</Group>
+<Group><Title>Тайминги памяти</Title><Icon>50</Icon>
+<Item><Title>@ 666 МГц</Title><Icon>50</Icon><Value>9-9-9-24  (CL-RCD-RP-RAS) / 33-174-4-10-5-5-20  (RC-RFC-RRD-WR-WTR-RTP-FAW)</Value></Item>
+<Item><Title>@ 609 МГц</Title><Icon>50</Icon><Value>8-8-8-22  (CL-RCD-RP-RAS) / 30-159-4-10-5-5-19  (RC-RFC-RRD-WR-WTR-RTP-FAW)</Value></Item>
+<Item><Title>@ 533 МГц</Title><Icon>50</Icon><Value>7-7-7-20  (CL-RCD-RP-RAS) / 27-139-4-8-4-4-16  (RC-RFC-RRD-WR-WTR-RTP-FAW)</Value></Item>
+<Item><Title>@ 457 МГц</Title><Icon>50</Icon><Value>6-6-6-17  (CL-RCD-RP-RAS) / 23-119-3-7-4-4-14  (RC-RFC-RRD-WR-WTR-RTP-FAW)</Value></Item>
+</Group>
+<Group><Title>Функции модуля памяти</Title><Icon>50</Icon>
+<Item><Title>Auto Self Refresh (ASR)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>DLL-Off Mode</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Extended Temperature Range</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>Extended Temperature 1X Refresh Rate</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Module Thermal Sensor</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>On-Die Thermal Sensor Readout (ODTS)</Title><Icon>144</Icon><Value>Не поддерживается</Value></Item>
+<Item><Title>Partial Array Self Refresh (PASR)</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>RZQ/6</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+<Item><Title>RZQ/7</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+</Group>
+<Group><Title>Производитель модуля памяти</Title><Icon>50</Icon>
+<Item><Title>Фирма</Title><Icon>50</Icon><Value>Kingston Technology Corporation</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>50</Icon><Value>http://www.kingston.com/en/memory</Value></Item>
+</Group>
+</Device>
+</Page>
+<Page><Title>Чипсет</Title><Icon>9</Icon><MenuTitle>Системная плата</MenuTitle><MenuIcon>77</MenuIcon>
+<Device><Title>Северный мост: AMD K15.1 IMC</Title><Icon>66</Icon>
+<Group><Title>Свойства северного моста</Title><Icon>9</Icon>
+<Item><Title>Северный мост</Title><Icon>9</Icon><ID>769</ID><Value>AMD K15.1 IMC</Value></Item>
+<Item><Title>Поддерживаемые типы памяти</Title><Icon>50</Icon><ID>840</ID><Value>DDR3-800, DDR3-1066, DDR3-1333, DDR3-1600, DDR3-1866 SDRAM</Value></Item>
+<Item><Title>Версия</Title><Icon>9</Icon><Value>00</Value></Item>
+<Item><Title>Технологический процесс</Title><Icon>9</Icon><Value>32 nm</Value></Item>
+<Item><Title>Probe Filter</Title><Icon>9</Icon><ID>879</ID><Value>Не поддерживается</Value></Item>
+</Group>
+<Group><Title>Контроллер памяти</Title><Icon>50</Icon>
+<Item><Title>Тип</Title><Icon>50</Icon><ID>802</ID><Value>Dual Channel  (128 бит)</Value></Item>
+<Item><Title>Активный режим</Title><Icon>50</Icon><ID>803</ID><Value>Dual Channel  (128 бит)</Value></Item>
+</Group>
+<Group><Title>Тайминги памяти</Title><Icon>50</Icon>
+<Item><Title>CAS Latency (CL)</Title><Icon>50</Icon><ID>793</ID><Value>9T</Value></Item>
+<Item><Title>RAS To CAS Delay (tRCD)</Title><Icon>50</Icon><ID>794</ID><Value>9T</Value></Item>
+<Item><Title>RAS Precharge (tRP)</Title><Icon>50</Icon><ID>795</ID><Value>9T</Value></Item>
+<Item><Title>RAS Active Time (tRAS)</Title><Icon>50</Icon><ID>796</ID><Value>24T</Value></Item>
+<Item><Title>Row Cycle Time (tRC)</Title><Icon>50</Icon><ID>799</ID><Value>33T</Value></Item>
+<Item><Title>Command Rate (CR)</Title><Icon>50</Icon><ID>801</ID><Value>1T</Value></Item>
+<Item><Title>RAS To RAS Delay (tRRD)</Title><Icon>50</Icon><ID>805</ID><Value>4T</Value></Item>
+<Item><Title>Write Recovery Time (tWR)</Title><Icon>50</Icon><ID>806</ID><Value>10T</Value></Item>
+<Item><Title>Read To Read Delay (tRTR)</Title><Icon>50</Icon><ID>813</ID><Value>Same Rank: 1T, Different Rank: 1T, Different DIMM: 3T</Value></Item>
+<Item><Title>Read To Write Delay (tRTW)</Title><Icon>50</Icon><ID>814</ID><Value>7T</Value></Item>
+<Item><Title>Write To Read Delay (tWTR)</Title><Icon>50</Icon><ID>815</ID><Value>5T</Value></Item>
+<Item><Title>Write To Write Delay (tWTW)</Title><Icon>50</Icon><ID>866</ID><Value>Same Rank: 1T, Different Rank: 3T, Different DIMM: 3T</Value></Item>
+<Item><Title>Read To Precharge Delay (tRTP)</Title><Icon>50</Icon><ID>849</ID><Value>5T</Value></Item>
+<Item><Title>Four Activate Window Delay (tFAW)</Title><Icon>50</Icon><ID>851</ID><Value>20T</Value></Item>
+<Item><Title>Write CAS Latency (tWCL)</Title><Icon>50</Icon><ID>816</ID><Value>7T</Value></Item>
+<Item><Title>Refresh Period (tREF)</Title><Icon>50</Icon><ID>817</ID><Value>7.8 us</Value></Item>
+<Item><Title>Idle Cycle Limit</Title><Icon>50</Icon><ID>825</ID><Value>16</Value></Item>
+</Group>
+<Group><Title>Коррекция ошибок</Title><Icon>85</Icon>
+<Item><Title>ECC</Title><Icon>85</Icon><ID>826</ID><Value>Не поддерживается</Value></Item>
+<Item><Title>ChipKill ECC</Title><Icon>85</Icon><ID>827</ID><Value>Не поддерживается</Value></Item>
+<Item><Title>RAID</Title><Icon>85</Icon><ID>837</ID><Value>Не поддерживается</Value></Item>
+<Item><Title>DRAM Scrub Rate</Title><Icon>50</Icon><ID>828</ID><Value>Запрещено</Value></Item>
+<Item><Title>L3 Cache Scrub Rate</Title><Icon>9</Icon><ID>876</ID><Value>Запрещено</Value></Item>
+</Group>
+<Group><Title>Разъёмы памяти</Title><Icon>50</Icon>
+<Item><Title>Разъём DRAM 1</Title><Icon>50</Icon><ID>773</ID><Value>4 ГБ  (DDR3 SDRAM)</Value></Item>
+<Item><Title>Разъём DRAM 2</Title><Icon>50</Icon><ID>773</ID><Value>4 ГБ  (DDR3 SDRAM)</Value></Item>
+</Group>
+<Group><Title>Встроенный графический контроллер</Title><Icon>22</Icon>
+<Item><Title>Тип графического контроллера</Title><Icon>22</Icon><ID>785</ID><Value>AMD Richland</Value></Item>
+<Item><Title>Статус графического контроллера</Title><Icon>22</Icon><ID>786</ID><Value>Запрещено</Value></Item>
+</Group>
+<Group><Title>Контроллер PCI Express</Title><Icon>9</Icon>
+<Item><Title>PCI-E 2.0 x16 port #0</Title><Icon>9</Icon><ID>810</ID><Value>Используется @ x16  (AMD Caicos/Seymour - High Definition Audio Controller, AMD Radeon HD 7450 (Caicos) Video Adapter)</Value></Item>
+<Item><Title>PCI-E 2.0 x1 port #1</Title><Icon>9</Icon><ID>810</ID><Value>Используется @ x1  (Realtek RTL8168/8111 PCI-E Gigabit Ethernet Adapter)</Value></Item>
+</Group>
+<Group><Title>Производитель чипсета</Title><Icon>9</Icon>
+<Item><Title>Фирма</Title><Icon>9</Icon><ID>782</ID><Value>Advanced Micro Devices, Inc.</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>9</Icon><ID>783</ID><Value>http://www.amd.com/us/products/desktop/chipsets</Value></Item>
+<Item><Title>Загрузка драйверов</Title><Icon>9</Icon><ID>784</ID><Value>http://support.amd.com</Value></Item>
+<Item><Title>Модернизации BIOS</Title><Icon>143</Icon><ID>877</ID><Value>http://www.aida64.com/bios-updates</Value></Item>
+<Item><Title>Обновление драйверов</Title><Icon>91</Icon><ID>844</ID><Value>http://www.aida64.com/driver-updates</Value></Item>
+</Group>
+</Device>
+<Device><Title>Южный мост: AMD A58 (Bolton-D2)</Title><Icon>9</Icon>
+<Group><Title>Свойства южного моста</Title><Icon>9</Icon>
+<Item><Title>Южный мост</Title><Icon>9</Icon><Value>AMD A58 (Bolton-D2)</Value></Item>
+<Item><Title>Версия</Title><Icon>9</Icon><Value>11</Value></Item>
+<Item><Title>Тип корпуса</Title><Icon>9</Icon><Value>656 Pin FC-BGA</Value></Item>
+<Item><Title>Размеры корпуса</Title><Icon>9</Icon><Value>24.5 mm x 24.5 mm</Value></Item>
+<Item><Title>Размер кристалла</Title><Icon>9</Icon><Value>49.25 mm2</Value></Item>
+<Item><Title>Напряжение питания ядра</Title><Icon>132</Icon><Value>1.1 V</Value></Item>
+<Item><Title>TDP</Title><Icon>132</Icon><Value>7.6 W</Value></Item>
+<Item><Title>Debug Info</Title><Icon>34</Icon><Value>Hudson/Bolton ID = 25h</Value></Item>
+</Group>
+<Group><Title>High Definition Audio</Title><Icon>92</Icon>
+<Item><Title>Имя кодека</Title><Icon>92</Icon><ID>790</ID><Value>Realtek ALC662</Value></Item>
+<Item><Title>ID кодека</Title><Icon>92</Icon><ID>791</ID><Value>10EC0662h / 18497662h</Value></Item>
+<Item><Title>Версия кодека</Title><Icon>92</Icon><ID>832</ID><Value>1001h</Value></Item>
+<Item><Title>Тип кодека</Title><Icon>92</Icon><ID>855</ID><Value>Audio</Value></Item>
+</Group>
+<Group><Title>Производитель чипсета</Title><Icon>9</Icon>
+<Item><Title>Фирма</Title><Icon>9</Icon><ID>782</ID><Value>Advanced Micro Devices, Inc.</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>9</Icon><ID>783</ID><Value>http://www.amd.com/us/products/desktop/chipsets</Value></Item>
+<Item><Title>Загрузка драйверов</Title><Icon>9</Icon><ID>784</ID><Value>http://support.amd.com</Value></Item>
+<Item><Title>Модернизации BIOS</Title><Icon>143</Icon><ID>877</ID><Value>http://www.aida64.com/bios-updates</Value></Item>
+<Item><Title>Обновление драйверов</Title><Icon>91</Icon><ID>844</ID><Value>http://www.aida64.com/driver-updates</Value></Item>
+</Group>
+</Device>
+</Page>
+<Page><Title>BIOS</Title><Icon>9</Icon><MenuTitle>Системная плата</MenuTitle><MenuIcon>77</MenuIcon>
+<Group><Title>Свойства BIOS</Title><Icon>9</Icon>
+<Item><Title>Тип BIOS</Title><Icon>9</Icon><Value>AMI UEFI</Value></Item>
+<Item><Title>Версия BIOS</Title><Icon>9</Icon><Value>P1.30</Value></Item>
+<Item><Title>Версия AGESA</Title><Icon>66</Icon><Value>KaveriPI        V1.1.0.5</Value></Item>
+<Item><Title>SMBIOS Version</Title><Icon>9</Icon><Value>2.7</Value></Item>
+<Item><Title>UEFI Boot</Title><Icon>9</Icon><ID>7169</ID><Value>Нет</Value></Item>
+<Item><Title>Дата BIOS системы</Title><Icon>12</Icon><Value>08/01/2014</Value></Item>
+<Item><Title>Дата BIOS видеоадаптера</Title><Icon>22</Icon><Value>11/09/15</Value></Item>
+</Group>
+<Group><Title>Производитель BIOS</Title><Icon>9</Icon>
+<Item><Title>Фирма</Title><Icon>9</Icon><Value>American Megatrends Inc.</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>9</Icon><Value>http://www.ami.com/amibios</Value></Item>
+<Item><Title>Модернизации BIOS</Title><Icon>143</Icon><Value>http://www.aida64.com/bios-updates</Value></Item>
+</Group>
+</Page>
+<Page><Title>ACPI</Title><Icon>9</Icon><MenuTitle>Системная плата</MenuTitle><MenuIcon>77</MenuIcon>
+<Device><Title>AAFT: ASRock AAFT</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>AAFT</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>ASRock AAFT</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC436298h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>732 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>ALASKA</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>OEMAAFT</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>01072009h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>MSFT</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00000097h</Value></Item>
+</Group>
+</Device>
+<Device><Title>APIC: Multiple APIC Description Table</Title><Icon>9</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>APIC</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Multiple APIC Description Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC436160h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>114 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>ALASKA</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>A M I</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>01072009h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>AMI</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00010013h</Value></Item>
+<Item><Title>Local APIC Address</Title><Icon>9</Icon><Value>FEE00000h</Value></Item>
+</Group>
+<Group><Title>Processor Local APIC</Title><Icon>66</Icon>
+<Item><Title>ACPI Processor ID</Title><Icon>66</Icon><Value>01h</Value></Item>
+<Item><Title>APIC ID</Title><Icon>66</Icon><Value>10h</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+</Group>
+<Group><Title>Processor Local APIC</Title><Icon>66</Icon>
+<Item><Title>ACPI Processor ID</Title><Icon>66</Icon><Value>02h</Value></Item>
+<Item><Title>APIC ID</Title><Icon>66</Icon><Value>11h</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+</Group>
+<Group><Title>Processor Local APIC</Title><Icon>66</Icon>
+<Item><Title>ACPI Processor ID</Title><Icon>66</Icon><Value>03h</Value></Item>
+<Item><Title>APIC ID</Title><Icon>66</Icon><Value>14h</Value></Item>
+<Item><Title>Статус</Title><Icon>144</Icon><Value>Запрещено</Value></Item>
+</Group>
+<Group><Title>Processor Local APIC</Title><Icon>66</Icon>
+<Item><Title>ACPI Processor ID</Title><Icon>66</Icon><Value>04h</Value></Item>
+<Item><Title>APIC ID</Title><Icon>66</Icon><Value>15h</Value></Item>
+<Item><Title>Статус</Title><Icon>144</Icon><Value>Запрещено</Value></Item>
+</Group>
+<Group><Title>I/O APIC</Title><Icon>9</Icon>
+<Item><Title>I/O APIC ID</Title><Icon>9</Icon><Value>03h</Value></Item>
+<Item><Title>I/O APIC Address</Title><Icon>9</Icon><Value>FEC00000h</Value></Item>
+<Item><Title>Global System Interrupt Base</Title><Icon>9</Icon><Value>00000000h</Value></Item>
+</Group>
+<Group><Title>Interrupt Source Override</Title><Icon>9</Icon>
+<Item><Title>Шина</Title><Icon>9</Icon><Value>ISA</Value></Item>
+<Item><Title>Источник</Title><Icon>9</Icon><Value>IRQ0</Value></Item>
+<Item><Title>Global System Interrupt</Title><Icon>9</Icon><Value>00000002h</Value></Item>
+<Item><Title>Полярность</Title><Icon>9</Icon><Value>Conforms to the specifications of the bus</Value></Item>
+<Item><Title>Trigger Mode</Title><Icon>9</Icon><Value>Conforms to the specifications of the bus</Value></Item>
+</Group>
+<Group><Title>Interrupt Source Override</Title><Icon>9</Icon>
+<Item><Title>Шина</Title><Icon>9</Icon><Value>ISA</Value></Item>
+<Item><Title>Источник</Title><Icon>9</Icon><Value>IRQ9</Value></Item>
+<Item><Title>Global System Interrupt</Title><Icon>9</Icon><Value>00000009h</Value></Item>
+<Item><Title>Полярность</Title><Icon>9</Icon><Value>Active Low</Value></Item>
+<Item><Title>Trigger Mode</Title><Icon>9</Icon><Value>Level-Triggered</Value></Item>
+</Group>
+<Group><Title>Local APIC NMI</Title><Icon>9</Icon>
+<Item><Title>ACPI Processor ID</Title><Icon>66</Icon><Value>FFh</Value></Item>
+<Item><Title>Local ACPI LINT#</Title><Icon>9</Icon><Value>01h</Value></Item>
+<Item><Title>Полярность</Title><Icon>9</Icon><Value>Active High</Value></Item>
+<Item><Title>Trigger Mode</Title><Icon>9</Icon><Value>Edge-Triggered</Value></Item>
+</Group>
+</Device>
+<Device><Title>CRAT: Component Resource Affinity Table</Title><Icon>66</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>CRAT</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Component Resource Affinity Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC4370E8h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>744 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>AMD</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>BANTRY</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>00000001h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>AMD</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00000001h</Value></Item>
+</Group>
+<Group><Title>APU Affinity</Title><Icon>66</Icon>
+<Item><Title>Processor ID Low</Title><Icon>66</Icon><Value>00000010h</Value></Item>
+<Item><Title>CPU Core Count</Title><Icon>66</Icon><Value>2</Value></Item>
+<Item><Title>SIMD Count</Title><Icon>66</Icon><Value>0</Value></Item>
+<Item><Title>Ширина SIMD</Title><Icon>66</Icon><Value>0</Value></Item>
+<Item><Title>IO Count</Title><Icon>9</Icon><Value>0</Value></Item>
+<Item><Title>Proximity Domain</Title><Icon>66</Icon><Value>00000000h</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Hot Pluggable</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>ЦП</Title><Icon>145</Icon><Value>Есть</Value></Item>
+<Item><Title>APD</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>IOMMU</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+<Group><Title>Memory Component Affinity</Title><Icon>50</Icon>
+<Item><Title>Base Address</Title><Icon>50</Icon><Value>00000000-00000000h</Value></Item>
+<Item><Title>Длина</Title><Icon>50</Icon><Value>4294967296  (4096 МБ)</Value></Item>
+<Item><Title>Width</Title><Icon>50</Icon><Value>64 бит</Value></Item>
+<Item><Title>Proximity Domain</Title><Icon>66</Icon><Value>00000000h</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Hot Pluggable</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>Non-Volatile</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+<Group><Title>Memory Component Affinity</Title><Icon>50</Icon>
+<Item><Title>Base Address</Title><Icon>50</Icon><Value>00000000-00000100h</Value></Item>
+<Item><Title>Длина</Title><Icon>50</Icon><Value>4294967296  (4096 МБ)</Value></Item>
+<Item><Title>Width</Title><Icon>50</Icon><Value>64 бит</Value></Item>
+<Item><Title>Proximity Domain</Title><Icon>66</Icon><Value>00000000h</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Hot Pluggable</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>Non-Volatile</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+<Group><Title>Cache Affinity</Title><Icon>9</Icon>
+<Item><Title>Processor ID Low</Title><Icon>66</Icon><Value>00000010h</Value></Item>
+<Item><Title>Cache Size</Title><Icon>9</Icon><Value>16 КБ</Value></Item>
+<Item><Title>Cache Level</Title><Icon>9</Icon><Value>1</Value></Item>
+<Item><Title>Lines Per Tag</Title><Icon>9</Icon><Value>1</Value></Item>
+<Item><Title>Line Size</Title><Icon>9</Icon><Value>64 байт</Value></Item>
+<Item><Title>Ассоциативность</Title><Icon>9</Icon><Value>4-way associative</Value></Item>
+<Item><Title>Задержка</Title><Icon>9</Icon><Value>1 ns</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Data Cache</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>Instruction Cache</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>Кэш ЦП</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>SIMD Cache</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+<Group><Title>Cache Affinity</Title><Icon>9</Icon>
+<Item><Title>Processor ID Low</Title><Icon>66</Icon><Value>00000010h</Value></Item>
+<Item><Title>Cache Size</Title><Icon>9</Icon><Value>64 КБ</Value></Item>
+<Item><Title>Cache Level</Title><Icon>9</Icon><Value>1</Value></Item>
+<Item><Title>Lines Per Tag</Title><Icon>9</Icon><Value>1</Value></Item>
+<Item><Title>Line Size</Title><Icon>9</Icon><Value>64 байт</Value></Item>
+<Item><Title>Ассоциативность</Title><Icon>9</Icon><Value>2-way associative</Value></Item>
+<Item><Title>Задержка</Title><Icon>9</Icon><Value>1 ns</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Data Cache</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>Instruction Cache</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>Кэш ЦП</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>SIMD Cache</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+<Group><Title>Cache Affinity</Title><Icon>9</Icon>
+<Item><Title>Processor ID Low</Title><Icon>66</Icon><Value>00000010h</Value></Item>
+<Item><Title>Cache Size</Title><Icon>9</Icon><Value>1024 КБ</Value></Item>
+<Item><Title>Cache Level</Title><Icon>9</Icon><Value>2</Value></Item>
+<Item><Title>Lines Per Tag</Title><Icon>9</Icon><Value>1</Value></Item>
+<Item><Title>Line Size</Title><Icon>9</Icon><Value>64 байт</Value></Item>
+<Item><Title>Ассоциативность</Title><Icon>9</Icon><Value>16-way associative</Value></Item>
+<Item><Title>Задержка</Title><Icon>9</Icon><Value>0 ns</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Data Cache</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>Instruction Cache</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>Кэш ЦП</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>SIMD Cache</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+<Group><Title>Cache Affinity</Title><Icon>9</Icon>
+<Item><Title>Processor ID Low</Title><Icon>66</Icon><Value>00000011h</Value></Item>
+<Item><Title>Cache Size</Title><Icon>9</Icon><Value>16 КБ</Value></Item>
+<Item><Title>Cache Level</Title><Icon>9</Icon><Value>1</Value></Item>
+<Item><Title>Lines Per Tag</Title><Icon>9</Icon><Value>1</Value></Item>
+<Item><Title>Line Size</Title><Icon>9</Icon><Value>64 байт</Value></Item>
+<Item><Title>Ассоциативность</Title><Icon>9</Icon><Value>4-way associative</Value></Item>
+<Item><Title>Задержка</Title><Icon>9</Icon><Value>1 ns</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Data Cache</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>Instruction Cache</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>Кэш ЦП</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>SIMD Cache</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+<Group><Title>TLB Affinity</Title><Icon>9</Icon>
+<Item><Title>Processor ID Low</Title><Icon>66</Icon><Value>00000010h</Value></Item>
+<Item><Title>TLB Level</Title><Icon>9</Icon><Value>1</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Data TLB</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>Instruction TLB</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>CPU TLB</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>SIMD TLB</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+<Group><Title>TLB Affinity</Title><Icon>9</Icon>
+<Item><Title>Processor ID Low</Title><Icon>66</Icon><Value>00000010h</Value></Item>
+<Item><Title>TLB Level</Title><Icon>9</Icon><Value>1</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Data TLB</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>Instruction TLB</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>CPU TLB</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>SIMD TLB</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+<Group><Title>TLB Affinity</Title><Icon>9</Icon>
+<Item><Title>Processor ID Low</Title><Icon>66</Icon><Value>00000010h</Value></Item>
+<Item><Title>TLB Level</Title><Icon>9</Icon><Value>2</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Data TLB</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>Instruction TLB</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>CPU TLB</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>SIMD TLB</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+<Group><Title>TLB Affinity</Title><Icon>9</Icon>
+<Item><Title>Processor ID Low</Title><Icon>66</Icon><Value>00000010h</Value></Item>
+<Item><Title>TLB Level</Title><Icon>9</Icon><Value>2</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Data TLB</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>Instruction TLB</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>CPU TLB</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>SIMD TLB</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+<Group><Title>TLB Affinity</Title><Icon>9</Icon>
+<Item><Title>Processor ID Low</Title><Icon>66</Icon><Value>00000011h</Value></Item>
+<Item><Title>TLB Level</Title><Icon>9</Icon><Value>1</Value></Item>
+<Item><Title>Статус</Title><Icon>145</Icon><Value>Разрешено</Value></Item>
+<Item><Title>Data TLB</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>Instruction TLB</Title><Icon>144</Icon><Value>Нет</Value></Item>
+<Item><Title>CPU TLB</Title><Icon>145</Icon><Value>Да</Value></Item>
+<Item><Title>SIMD TLB</Title><Icon>144</Icon><Value>Нет</Value></Item>
+</Group>
+</Device>
+<Device><Title>DSDT: Differentiated System Description Table</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>DSDT</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Differentiated System Description Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC430188h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>24264 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>ALASKA</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>A M I</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>00000000h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>INTL</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>20051117h</Value></Item>
+</Group>
+<Group><Title>nVIDIA SLI</Title><Icon>22</Icon>
+<Item><Title>SLI Certification</Title><Icon>80</Icon><Value>Нет</Value></Item>
+<Item><Title>PCI 0-0-0-0 (Direct I/O)</Title><Icon>9</Icon><Value>1022-1410</Value></Item>
+<Item><Title>PCI 0-0-0-0 (HAL)</Title><Icon>9</Icon><Value>1022-1410</Value></Item>
+</Group>
+<Group><Title>Lucid Virtu</Title><Icon>9</Icon>
+<Item><Title>Virtu Certification</Title><Icon>80</Icon><Value>Нет</Value></Item>
+</Group>
+</Device>
+<Device><Title>FACP: Fixed ACPI Description Table</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>FACP</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Fixed ACPI Description Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC430100h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>132 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>ALASKA</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>A M I</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>01072009h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>AMI</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00010013h</Value></Item>
+<Item><Title>FACS Address</Title><Icon>9</Icon><Value>BC45B040h</Value></Item>
+<Item><Title>DSDT Address</Title><Icon>9</Icon><Value>BC430188h</Value></Item>
+<Item><Title>SMI Command Port</Title><Icon>9</Icon><Value>000000B2h</Value></Item>
+<Item><Title>PM Timer</Title><Icon>97</Icon><Value>00000808h</Value></Item>
+</Group>
+</Device>
+<Device><Title>FACP: Fixed ACPI Description Table</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>FACP</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Fixed ACPI Description Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>00000000-BC436050h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>268 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>ALASKA</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>A M I</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>01072009h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>AMI</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00010013h</Value></Item>
+<Item><Title>FACS Address</Title><Icon>9</Icon><Value>BC45B080h / 00000000-00000000h</Value></Item>
+<Item><Title>DSDT Address</Title><Icon>9</Icon><Value>BC430188h / 00000000-BC430188h</Value></Item>
+<Item><Title>SMI Command Port</Title><Icon>9</Icon><Value>000000B2h</Value></Item>
+<Item><Title>PM Timer</Title><Icon>97</Icon><Value>00000808h</Value></Item>
+</Group>
+</Device>
+<Device><Title>FACS: Firmware ACPI Control Structure</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>FACS</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Firmware ACPI Control Structure</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC45B040h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>64 байт</Value></Item>
+<Item><Title>Hardware Signature</Title><Icon>9</Icon><Value>00000000h</Value></Item>
+<Item><Title>Waking Vector</Title><Icon>9</Icon><Value>00000000h</Value></Item>
+<Item><Title>Global Lock</Title><Icon>9</Icon><Value>00000000h</Value></Item>
+</Group>
+</Device>
+<Device><Title>FBPT: Firmware Basic Boot Performance Table</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>FBPT</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Firmware Basic Boot Performance Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>00000000-BE0BC038h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>56 байт</Value></Item>
+</Group>
+</Device>
+<Device><Title>FPDT: Firmware Performance Data Table</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>FPDT</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Firmware Performance Data Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC4361D8h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>68 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>ALASKA</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>A M I</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>01072009h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>AMI</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00010013h</Value></Item>
+<Item><Title>FBPT Address</Title><Icon>9</Icon><Value>00000000-BE0BC038h</Value></Item>
+<Item><Title>S3PT Address</Title><Icon>9</Icon><Value>00000000-BE0BC018h</Value></Item>
+</Group>
+</Device>
+<Device><Title>HPET: IA-PC High Precision Event Timer Table</Title><Icon>97</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>HPET</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>IA-PC High Precision Event Timer Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC436260h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>56 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>ALASKA</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>A M I</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>01072009h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>AMI</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00000005h</Value></Item>
+<Item><Title>HPET Address</Title><Icon>97</Icon><Value>00000000-FED00000h</Value></Item>
+<Item><Title>Vendor ID</Title><Icon>97</Icon><Value>1022h</Value></Item>
+<Item><Title>Версия</Title><Icon>97</Icon><Value>10h</Value></Item>
+<Item><Title>Number of Timers</Title><Icon>97</Icon><Value>3</Value></Item>
+<Item><Title>Counter Size</Title><Icon>97</Icon><Value>32 бит</Value></Item>
+<Item><Title>Minimum Clock Ticks</Title><Icon>97</Icon><Value>14318</Value></Item>
+<Item><Title>Page Protection</Title><Icon>97</Icon><Value>No Guarantee</Value></Item>
+<Item><Title>OEM Attribute</Title><Icon>97</Icon><Value>0h</Value></Item>
+<Item><Title>LegacyReplacement IRQ Routing</Title><Icon>145</Icon><Value>Поддерживается</Value></Item>
+</Group>
+</Device>
+<Device><Title>MCFG: Memory Mapped Configuration Space Base Address Description Table</Title><Icon>19</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>MCFG</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Memory Mapped Configuration Space Base Address Description Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC436220h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>60 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>ALASKA</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>A M I</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>01072009h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>MSFT</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00010013h</Value></Item>
+<Item><Title>Config Space Address</Title><Icon>19</Icon><Value>00000000-E0000000h</Value></Item>
+<Item><Title>PCI Segment</Title><Icon>19</Icon><Value>0000h</Value></Item>
+<Item><Title>Start Bus Number</Title><Icon>19</Icon><Value>00h</Value></Item>
+<Item><Title>End Bus Number</Title><Icon>19</Icon><Value>FFh</Value></Item>
+</Group>
+</Device>
+<Device><Title>RSD PTR: Root System Description Pointer</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>RSD PTR</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Root System Description Pointer</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>000F04A0h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>36 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>ALASKA</Value></Item>
+<Item><Title>RSDP Revision</Title><Icon>9</Icon><Value>2  (ACPI 2.0+)</Value></Item>
+<Item><Title>RSDT Address</Title><Icon>9</Icon><Value>BC430028h</Value></Item>
+<Item><Title>XSDT Address</Title><Icon>9</Icon><Value>00000000-BC430078h</Value></Item>
+</Group>
+</Device>
+<Device><Title>RSDT: Root System Description Table</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>RSDT</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Root System Description Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC430028h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>76 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>ALASKA</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>A M I</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>01072009h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>MSFT</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00010013h</Value></Item>
+<Item><Title>RSDT Entry #0</Title><Icon>72</Icon><Value>BC430100h  (FACP)</Value></Item>
+<Item><Title>RSDT Entry #1</Title><Icon>9</Icon><Value>BC436160h  (APIC)</Value></Item>
+<Item><Title>RSDT Entry #2</Title><Icon>72</Icon><Value>BC4361D8h  (FPDT)</Value></Item>
+<Item><Title>RSDT Entry #3</Title><Icon>19</Icon><Value>BC436220h  (MCFG)</Value></Item>
+<Item><Title>RSDT Entry #4</Title><Icon>97</Icon><Value>BC436260h  (HPET)</Value></Item>
+<Item><Title>RSDT Entry #5</Title><Icon>72</Icon><Value>BC436298h  (AAFT)</Value></Item>
+<Item><Title>RSDT Entry #6</Title><Icon>72</Icon><Value>BC436578h  (SSDT)</Value></Item>
+<Item><Title>RSDT Entry #7</Title><Icon>72</Icon><Value>BC436C30h  (SSDT)</Value></Item>
+<Item><Title>RSDT Entry #8</Title><Icon>66</Icon><Value>BC4370E8h  (CRAT)</Value></Item>
+<Item><Title>RSDT Entry #9</Title><Icon>72</Icon><Value>BC4373D0h  (SSDT)</Value></Item>
+</Group>
+</Device>
+<Device><Title>S3PT: S3 Performance Table</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>S3PT</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>S3 Performance Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>00000000-BE0BC018h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>32 байт</Value></Item>
+</Group>
+</Device>
+<Device><Title>SLIC: Software Licensing Description Table</Title><Icon>108</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>SLIC</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Software Licensing Description Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>00000000-040DD9C0h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>374 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>DELL</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>PE_SC3</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>00000001h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>DELL</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00000001h</Value></Item>
+<Item><Title>Версия SLIC</Title><Icon>108</Icon><Value>v2.1</Value></Item>
+</Group>
+<Group><Title>OEM Public Key</Title><Icon>108</Icon>
+<Item><Title>Key Type</Title><Icon>108</Icon><Value>06h</Value></Item>
+<Item><Title>Версия</Title><Icon>108</Icon><Value>02h</Value></Item>
+<Item><Title>Algorithm</Title><Icon>108</Icon><Value>00002400h</Value></Item>
+<Item><Title>Magic</Title><Icon>108</Icon><Value>RSA1</Value></Item>
+<Item><Title>Bit Length</Title><Icon>108</Icon><Value>1024</Value></Item>
+<Item><Title>Exponent</Title><Icon>108</Icon><Value>65537</Value></Item>
+</Group>
+<Group><Title>SLIC Marker</Title><Icon>108</Icon>
+<Item><Title>Версия</Title><Icon>108</Icon><Value>00020001h</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>DELL</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>PE_SC3</Value></Item>
+<Item><Title>Windows Flag</Title><Icon>110</Icon><Value>WINDOWS</Value></Item>
+</Group>
+</Device>
+<Device><Title>SSDT: Secondary System Description Table</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>SSDT</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Secondary System Description Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC436578h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>1714 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>AMD</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>BANTRY</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>00000001h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>AMD</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00000001h</Value></Item>
+</Group>
+</Device>
+<Device><Title>SSDT: Secondary System Description Table</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>SSDT</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Secondary System Description Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC436C30h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>1207 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>AMD</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>BANTRY</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>00000001h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>MSFT</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>04000000h</Value></Item>
+</Group>
+</Device>
+<Device><Title>SSDT: Secondary System Description Table</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>SSDT</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Secondary System Description Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>BC4373D0h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>4373 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>AMD</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>CPMCMN</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>00000001h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>INTL</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>20051117h</Value></Item>
+</Group>
+</Device>
+<Device><Title>XSDT: Extended System Description Table</Title><Icon>72</Icon>
+<Group><Title>Свойства таблицы ACPI</Title><Icon>72</Icon>
+<Item><Title>Подпись ACPI</Title><Icon>72</Icon><Value>XSDT</Value></Item>
+<Item><Title>Описание таблицы</Title><Icon>72</Icon><Value>Extended System Description Table</Value></Item>
+<Item><Title>Адрес памяти</Title><Icon>50</Icon><Value>00000000-BC430078h</Value></Item>
+<Item><Title>Размер таблицы</Title><Icon>72</Icon><Value>124 байт</Value></Item>
+<Item><Title>OEM ID</Title><Icon>86</Icon><Value>DELL</Value></Item>
+<Item><Title>OEM Table ID</Title><Icon>86</Icon><Value>PE_SC3</Value></Item>
+<Item><Title>OEM Revision</Title><Icon>86</Icon><Value>01072009h</Value></Item>
+<Item><Title>Creator ID</Title><Icon>86</Icon><Value>AMI</Value></Item>
+<Item><Title>Creator Revision</Title><Icon>86</Icon><Value>00010013h</Value></Item>
+<Item><Title>XSDT Entry #0</Title><Icon>72</Icon><Value>00000000-BC436050h  (FACP)</Value></Item>
+<Item><Title>XSDT Entry #1</Title><Icon>9</Icon><Value>00000000-BC436160h  (APIC)</Value></Item>
+<Item><Title>XSDT Entry #2</Title><Icon>72</Icon><Value>00000000-BC4361D8h  (FPDT)</Value></Item>
+<Item><Title>XSDT Entry #3</Title><Icon>19</Icon><Value>00000000-BC436220h  (MCFG)</Value></Item>
+<Item><Title>XSDT Entry #4</Title><Icon>97</Icon><Value>00000000-BC436260h  (HPET)</Value></Item>
+<Item><Title>XSDT Entry #5</Title><Icon>72</Icon><Value>00000000-BC436298h  (AAFT)</Value></Item>
+<Item><Title>XSDT Entry #6</Title><Icon>72</Icon><Value>00000000-BC436578h  (SSDT)</Value></Item>
+<Item><Title>XSDT Entry #7</Title><Icon>72</Icon><Value>00000000-BC436C30h  (SSDT)</Value></Item>
+<Item><Title>XSDT Entry #8</Title><Icon>66</Icon><Value>00000000-BC4370E8h  (CRAT)</Value></Item>
+<Item><Title>XSDT Entry #9</Title><Icon>72</Icon><Value>00000000-BC4373D0h  (SSDT)</Value></Item>
+<Item><Title>XSDT Entry #10</Title><Icon>108</Icon><Value>00000000-040DD9C0h  (SLIC)</Value></Item>
+</Group>
+</Device>
+</Page>
+<Page><Title>Монитор</Title><Icon>53</Icon><MenuTitle>Отображение</MenuTitle><MenuIcon>53</MenuIcon>
+<Device><Title>Asus VS229</Title><Icon>53</Icon>
+<Group><Title>Свойства монитора</Title><Icon>53</Icon>
+<Item><Title>Имя монитора</Title><Icon>53</Icon><Value>Asus VS229</Value></Item>
+<Item><Title>ID монитора</Title><Icon>53</Icon><Value>ACI22C2</Value></Item>
+<Item><Title>Модель</Title><Icon>53</Icon><Value>ASUS VS229</Value></Item>
+<Item><Title>Тип монитора</Title><Icon>53</Icon><Value>22" LCD (FHD)</Value></Item>
+<Item><Title>Дата выпуска</Title><Icon>53</Icon><Value>Неделя 41 / 2018</Value></Item>
+<Item><Title>Серийный номер</Title><Icon>53</Icon><Value>JALMQS087762</Value></Item>
+<Item><Title>Макс. видимая область экрана</Title><Icon>53</Icon><Value>477 mm x 268 mm (21.5")</Value></Item>
+<Item><Title>Соотношение сторон</Title><Icon>53</Icon><Value>16:9</Value></Item>
+<Item><Title>Частота строк</Title><Icon>53</Icon><Value>30 - 83 кГц</Value></Item>
+<Item><Title>Частота кадров</Title><Icon>53</Icon><Value>50 - 76 Гц</Value></Item>
+<Item><Title>Максимальная пиксельная частота</Title><Icon>53</Icon><Value>170 МГц</Value></Item>
+<Item><Title>Максимальное разрешение</Title><Icon>53</Icon><Value>1920 x 1080</Value></Item>
+<Item><Title>Плотность пикселов</Title><Icon>53</Icon><Value>102 ppi</Value></Item>
+<Item><Title>Гамма</Title><Icon>53</Icon><Value>2.20</Value></Item>
+<Item><Title>Поддерживаемые режимы DPMS</Title><Icon>53</Icon><Value>Standby, Suspend, Active-Off</Value></Item>
+</Group>
+<Group><Title>Поддерживаемые видеорежимы</Title><Icon>53</Icon>
+<Item><Title>640 x 480</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>640 x 480</Title><Icon>53</Icon><Value>67 Гц</Value></Item>
+<Item><Title>640 x 480</Title><Icon>53</Icon><Value>72 Гц</Value></Item>
+<Item><Title>640 x 480</Title><Icon>53</Icon><Value>75 Гц</Value></Item>
+<Item><Title>720 x 400</Title><Icon>53</Icon><Value>70 Гц</Value></Item>
+<Item><Title>800 x 600</Title><Icon>53</Icon><Value>56 Гц</Value></Item>
+<Item><Title>800 x 600</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>800 x 600</Title><Icon>53</Icon><Value>72 Гц</Value></Item>
+<Item><Title>800 x 600</Title><Icon>53</Icon><Value>75 Гц</Value></Item>
+<Item><Title>832 x 624</Title><Icon>53</Icon><Value>75 Гц</Value></Item>
+<Item><Title>1024 x 768</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>1024 x 768</Title><Icon>53</Icon><Value>72 Гц</Value></Item>
+<Item><Title>1024 x 768</Title><Icon>53</Icon><Value>75 Гц</Value></Item>
+<Item><Title>1152 x 864</Title><Icon>53</Icon><Value>75 Гц</Value></Item>
+<Item><Title>1280 x 960</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>1280 x 1024</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>1280 x 1024</Title><Icon>53</Icon><Value>75 Гц</Value></Item>
+<Item><Title>1440 x 900</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>1600 x 1200</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>1680 x 1050</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>1920 x 1080</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>1920 x 1080</Title><Icon>53</Icon><Value>Пиксельная частота: 148.50 МГц</Value></Item>
+</Group>
+<Group><Title>Производитель монитора</Title><Icon>53</Icon>
+<Item><Title>Фирма</Title><Icon>53</Icon><Value>ASUSTeK Computer Inc.</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>53</Icon><Value>http://www.asus.com/Monitors_Projectors</Value></Item>
+<Item><Title>Загрузка драйверов</Title><Icon>53</Icon><Value>http://support.asus.com/download/download.aspx?SLanguage=en-us</Value></Item>
+<Item><Title>Обновление драйверов</Title><Icon>91</Icon><Value>http://www.aida64.com/driver-updates</Value></Item>
+</Group>
+</Device>
+<Device><Title>Samsung SyncMaster 172V/173V</Title><Icon>53</Icon>
+<Group><Title>Свойства монитора</Title><Icon>53</Icon>
+<Item><Title>Имя монитора</Title><Icon>53</Icon><Value>Samsung SyncMaster 172V/173V</Value></Item>
+<Item><Title>ID монитора</Title><Icon>53</Icon><Value>SAM00B1</Value></Item>
+<Item><Title>Производитель</Title><Icon>53</Icon><Value>SAMSUNG</Value></Item>
+<Item><Title>Тип монитора</Title><Icon>53</Icon><Value>17" LCD (SXGA)</Value></Item>
+<Item><Title>Дата выпуска</Title><Icon>53</Icon><Value>Неделя 16 / 2004</Value></Item>
+<Item><Title>Серийный номер</Title><Icon>53</Icon><Value>HSDX407729</Value></Item>
+<Item><Title>Макс. видимая область экрана</Title><Icon>53</Icon><Value>338 mm x 270 mm (17.0")</Value></Item>
+<Item><Title>Соотношение сторон</Title><Icon>53</Icon><Value>5:4</Value></Item>
+<Item><Title>Частота строк</Title><Icon>53</Icon><Value>30 - 81 кГц</Value></Item>
+<Item><Title>Частота кадров</Title><Icon>53</Icon><Value>56 - 75 Гц</Value></Item>
+<Item><Title>Максимальная пиксельная частота</Title><Icon>53</Icon><Value>140 МГц</Value></Item>
+<Item><Title>Максимальное разрешение</Title><Icon>53</Icon><Value>1280 x 1024</Value></Item>
+<Item><Title>Плотность пикселов</Title><Icon>53</Icon><Value>96 ppi</Value></Item>
+<Item><Title>Гамма</Title><Icon>53</Icon><Value>2.20</Value></Item>
+<Item><Title>Поддерживаемые режимы DPMS</Title><Icon>53</Icon><Value>Active-Off</Value></Item>
+</Group>
+<Group><Title>Поддерживаемые видеорежимы</Title><Icon>53</Icon>
+<Item><Title>640 x 480</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>640 x 480</Title><Icon>53</Icon><Value>67 Гц</Value></Item>
+<Item><Title>640 x 480</Title><Icon>53</Icon><Value>72 Гц</Value></Item>
+<Item><Title>640 x 480</Title><Icon>53</Icon><Value>75 Гц</Value></Item>
+<Item><Title>720 x 400</Title><Icon>53</Icon><Value>70 Гц</Value></Item>
+<Item><Title>800 x 600</Title><Icon>53</Icon><Value>56 Гц</Value></Item>
+<Item><Title>800 x 600</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>800 x 600</Title><Icon>53</Icon><Value>72 Гц</Value></Item>
+<Item><Title>800 x 600</Title><Icon>53</Icon><Value>75 Гц</Value></Item>
+<Item><Title>832 x 624</Title><Icon>53</Icon><Value>75 Гц</Value></Item>
+<Item><Title>1024 x 768</Title><Icon>53</Icon><Value>60 Гц</Value></Item>
+<Item><Title>1024 x 768</Title><Icon>53</Icon><Value>72 Гц</Value></Item>
+<Item><Title>1024 x 768</Title><Icon>53</Icon><Value>75 Гц</Value></Item>
+<Item><Title>1280 x 1024</Title><Icon>53</Icon><Value>75 Гц</Value></Item>
+<Item><Title>1280 x 1024</Title><Icon>53</Icon><Value>Пиксельная частота: 108.00 МГц</Value></Item>
+</Group>
+<Group><Title>Производитель монитора</Title><Icon>53</Icon>
+<Item><Title>Фирма</Title><Icon>53</Icon><Value>Samsung</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>53</Icon><Value>http://www.samsung.com/us/computer/monitors</Value></Item>
+<Item><Title>Загрузка драйверов</Title><Icon>53</Icon><Value>http://www.samsung.com/us/support</Value></Item>
+<Item><Title>Обновление драйверов</Title><Icon>91</Icon><Value>http://www.aida64.com/driver-updates</Value></Item>
+</Group>
+</Device>
+</Page>
+<Page><Title>Физические диски</Title><Icon>21</Icon><MenuTitle>Хранение данных</MenuTitle><MenuIcon>7</MenuIcon>
+<Device><Title>Диск #1 - TOSHIBA DT01ACA050 (465 ГБ)</Title><Icon>21</Icon>
+<Group><Title>#1 (Активный)</Title><Icon>21</Icon>
+<Item><Title>Тип раздела</Title><Value>NTFS</Value></Item>
+<Item><Title>Диск</Title><Value></Value></Item>
+<Item><Title>Начальное смещение</Title><Value>1 MB</Value></Item>
+<Item><Title>Объём раздела</Title><Value>549 MB</Value></Item>
+</Group>
+<Group><Title>#2</Title><Icon>21</Icon>
+<Item><Title>Тип раздела</Title><Value>NTFS</Value></Item>
+<Item><Title>Диск</Title><Value>C: (Windows 7)</Value></Item>
+<Item><Title>Начальное смещение</Title><Value>550 MB</Value></Item>
+<Item><Title>Объём раздела</Title><Value>99451 MB</Value></Item>
+</Group>
+<Group><Title>#3</Title><Icon>21</Icon>
+<Item><Title>Тип раздела</Title><Value>NTFS</Value></Item>
+<Item><Title>Диск</Title><Value>D: (ShareDisk)</Value></Item>
+<Item><Title>Начальное смещение</Title><Value>100001 MB</Value></Item>
+<Item><Title>Объём раздела</Title><Value>376938 MB</Value></Item>
+</Group>
+</Device>
+<Device><Title>Диск #2 - TOSHIBATransMemory (14 ГБ)</Title><Icon>21</Icon>
+<Group><Title>#1 (Активный)</Title><Icon>21</Icon>
+<Item><Title>Тип раздела</Title><Value>FAT32</Value></Item>
+<Item><Title>Диск</Title><Value>G: (TOSHI-16G )</Value></Item>
+<Item><Title>Начальное смещение</Title><Value>1 MB</Value></Item>
+<Item><Title>Объём раздела</Title><Value>14781 MB</Value></Item>
+</Group>
+</Device>
+</Page>
+<Page><Title>Сеть Windows</Title><Icon>118</Icon><MenuTitle>Сеть</MenuTitle><MenuIcon>57</MenuIcon>
+<Device><Title>Realtek PCIe GbE Family Controller</Title><Icon>118</Icon>
+<Group><Title>Свойства сетевого адаптера</Title><Icon>118</Icon>
+<Item><Title>Сетевой адаптер</Title><Icon>118</Icon><ID>7425</ID><Value>Realtek PCIe GbE Family Controller</Value></Item>
+<Item><Title>Тип интерфейса</Title><Icon>118</Icon><Value>Ethernet</Value></Item>
+<Item><Title>Аппаратный адрес</Title><Icon>118</Icon><ID>7426</ID><Value>D0-50-99-55-91-17</Value></Item>
+<Item><Title>Соединение</Title><Icon>118</Icon><Value>Подключение по локальной сети</Value></Item>
+<Item><Title>Скорость соединения</Title><Icon>118</Icon><Value>100 Mbps</Value></Item>
+<Item><Title>MTU</Title><Icon>118</Icon><Value>1500 байт</Value></Item>
+<Item><Title>DHCP-аренда получена</Title><Icon>118</Icon><Value>01.06.2020 14:30:16</Value></Item>
+<Item><Title>DHCP-аренда истекает</Title><Icon>118</Icon><Value>02.06.2020 2:30:16</Value></Item>
+<Item><Title>Получено байт</Title><Icon>118</Icon><Value>26338756922 (25118.6 МБ)</Value></Item>
+<Item><Title>Отправлено байт</Title><Icon>118</Icon><Value>3395905233 (3238.6 МБ)</Value></Item>
+</Group>
+<Group><Title>Адреса сетевого адаптера</Title><Icon>118</Icon>
+<Item><Title>IP / маска подсети</Title><Icon>118</Icon><ID>7427</ID><Value>192.168.2.109 / 255.255.255.0</Value></Item>
+<Item><Title>Шлюз</Title><Icon>118</Icon><ID>7427</ID><Value>192.168.2.1</Value></Item>
+<Item><Title>DHCP</Title><Icon>118</Icon><ID>7427</ID><Value>192.168.2.1</Value></Item>
+<Item><Title>DNS</Title><Icon>118</Icon><ID>7427</ID><Value>192.200.25.2</Value></Item>
+<Item><Title>DNS</Title><Icon>118</Icon><ID>7427</ID><Value>192.200.25.5</Value></Item>
+</Group>
+<Group><Title>Производитель сетевого адаптера</Title><Icon>118</Icon>
+<Item><Title>Фирма</Title><Icon>118</Icon><Value>Realtek Semiconductor Corp.</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>118</Icon><Value>http://www.realtek.com.tw/products/productsView.aspx?Langid=1&amp;PNid=7&amp;PFid=10&amp;Level=3&amp;Conn=2</Value></Item>
+<Item><Title>Загрузка драйверов</Title><Icon>118</Icon><Value>http://www.realtek.com.tw/downloads</Value></Item>
+<Item><Title>Обновление драйверов</Title><Icon>91</Icon><Value>http://www.aida64.com/driver-updates</Value></Item>
+</Group>
+</Device>
+<Device><Title>VirtualBox Host-Only Ethernet Adapter</Title><Icon>118</Icon>
+<Group><Title>Свойства сетевого адаптера</Title><Icon>118</Icon>
+<Item><Title>Сетевой адаптер</Title><Icon>118</Icon><ID>7425</ID><Value>VirtualBox Host-Only Ethernet Adapter</Value></Item>
+<Item><Title>Тип интерфейса</Title><Icon>118</Icon><Value>Ethernet</Value></Item>
+<Item><Title>Аппаратный адрес</Title><Icon>118</Icon><ID>7426</ID><Value>08-00-27-00-48-1B</Value></Item>
+<Item><Title>Соединение</Title><Icon>118</Icon><Value>VirtualBox Host-Only Network</Value></Item>
+<Item><Title>Скорость соединения</Title><Icon>118</Icon><Value>100 Mbps</Value></Item>
+<Item><Title>MTU</Title><Icon>118</Icon><Value>1500 байт</Value></Item>
+<Item><Title>Получено байт</Title><Icon>118</Icon><Value>0</Value></Item>
+<Item><Title>Отправлено байт</Title><Icon>118</Icon><Value>11941052 (11.4 МБ)</Value></Item>
+</Group>
+<Group><Title>Адреса сетевого адаптера</Title><Icon>118</Icon>
+<Item><Title>IP / маска подсети</Title><Icon>118</Icon><ID>7427</ID><Value>192.168.56.1 / 255.255.255.0</Value></Item>
+</Group>
+<Group><Title>Производитель сетевого адаптера</Title><Icon>118</Icon>
+<Item><Title>Фирма</Title><Icon>118</Icon><Value>Oracle Corporation</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>118</Icon><Value>http://www.virtualbox.org</Value></Item>
+<Item><Title>Загрузка драйверов</Title><Icon>118</Icon><Value>http://www.virtualbox.org</Value></Item>
+<Item><Title>Обновление драйверов</Title><Icon>91</Icon><Value>http://www.aida64.com/driver-updates</Value></Item>
+</Group>
+</Device>
+</Page>
+<Page><Title>Ресурсы устройств</Title><Icon>19</Icon><MenuTitle>Устройства</MenuTitle><MenuIcon>19</MenuIcon>
+<Device><Title>DMA 04</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Контроллер прямого доступа к памяти</Value></Item>
+</Device>
+<Device><Title>IRQ 00</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Системный таймер</Value></Item>
+</Device>
+<Device><Title>IRQ 08</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>CMOS и часы</Value></Item>
+</Device>
+<Device><Title>IRQ 100</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 101</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 102</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 103</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 104</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 105</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 106</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 107</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 108</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 109</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 110</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 111</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 112</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 113</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 114</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 115</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 116</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 117</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 118</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 119</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 120</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 121</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 122</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 123</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 124</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 125</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 126</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 127</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 128</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 129</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 13</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Арифметический сопроцессор</Value></Item>
+</Device>
+<Device><Title>IRQ 130</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 131</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 131071</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Порт PCI Express standard Root</Value></Item>
+</Device>
+<Device><Title>IRQ 131071</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Порт PCI Express standard Root</Value></Item>
+</Device>
+<Device><Title>IRQ 132</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 133</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 134</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 135</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 136</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 137</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 138</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 139</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 14</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>ATA Channel 0</Value></Item>
+</Device>
+<Device><Title>IRQ 140</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 141</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 142</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 143</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 144</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 145</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 146</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 147</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 148</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 149</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 15</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>ATA Channel 1</Value></Item>
+</Device>
+<Device><Title>IRQ 150</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 151</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 152</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 153</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 154</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 155</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 156</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 157</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 158</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 159</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 16</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Контроллер High Definition Audio (Microsoft)</Value></Item>
+</Device>
+<Device><Title>IRQ 160</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 161</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 162</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 163</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 164</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 165</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 166</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 167</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 168</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 169</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 17</Title><Icon>101</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Стандартный расширенный PCI - USB хост-контроллер</Value></Item>
+</Device>
+<Device><Title>IRQ 17</Title><Icon>101</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Стандартный расширенный PCI - USB хост-контроллер</Value></Item>
+</Device>
+<Device><Title>IRQ 170</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 171</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 172</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 173</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 174</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 175</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 176</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 177</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 178</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 179</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 18</Title><Icon>101</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Стандартный OpenHCD USB хост-контроллер</Value></Item>
+</Device>
+<Device><Title>IRQ 18</Title><Icon>101</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Стандартный OpenHCD USB хост-контроллер</Value></Item>
+</Device>
+<Device><Title>IRQ 18</Title><Icon>101</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Стандартный OpenHCD USB хост-контроллер</Value></Item>
+</Device>
+<Device><Title>IRQ 180</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 181</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 182</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 183</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 184</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 185</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 186</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 187</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 188</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 189</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 19</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Контроллер High Definition Audio (Microsoft)</Value></Item>
+</Device>
+<Device><Title>IRQ 19</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>AMD SATA Controller (IDE Mode)</Value></Item>
+</Device>
+<Device><Title>IRQ 190</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 65536</Title><Icon>118</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Realtek PCIe GbE Family Controller</Value></Item>
+</Device>
+<Device><Title>IRQ 81</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 82</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 83</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 84</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 85</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 86</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 87</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 88</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 89</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 90</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 91</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 92</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 93</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 94</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 95</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 96</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 97</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 98</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>IRQ 99</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Microsoft ACPI-совместимая система</Value></Item>
+</Device>
+<Device><Title>Память 000A0000-000BFFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Шина PCI</Value></Item>
+</Device>
+<Device><Title>Память 000A0000-000BFFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Не определено</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Порт PCI Express standard Root</Value></Item>
+</Device>
+<Device><Title>Память 000C0000-000DFFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Шина PCI</Value></Item>
+</Device>
+<Device><Title>Память 0455A970-BFFFFFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Память C0000000-CFFFFFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Порт PCI Express standard Root</Value></Item>
+</Device>
+<Device><Title>Память C0000000-FFFFFFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Шина PCI</Value></Item>
+</Device>
+<Device><Title>Память D0000000-D0003FFF</Title><Icon>118</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Realtek PCIe GbE Family Controller</Value></Item>
+</Device>
+<Device><Title>Память D0000000-D00FFFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Порт PCI Express standard Root</Value></Item>
+</Device>
+<Device><Title>Память E0000000-EFFFFFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Системная плата</Value></Item>
+</Device>
+<Device><Title>Память FEC00000-FEC00FFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Память FEC10000-FEC10FFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Память FED00000-FED003FF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Высокоточный таймер событий</Value></Item>
+</Device>
+<Device><Title>Память FED00000-FED00FFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Память FED61000-FED70FFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Память FED80000-FED8FFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Память FEE00000-FEE00FFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Память FF500000-FF500FFF</Title><Icon>118</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Realtek PCIe GbE Family Controller</Value></Item>
+</Device>
+<Device><Title>Память FF500000-FF5FFFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Порт PCI Express standard Root</Value></Item>
+</Device>
+<Device><Title>Память FF600000-FF6FFFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Порт PCI Express standard Root</Value></Item>
+</Device>
+<Device><Title>Память FF640000-FF643FFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Контроллер High Definition Audio (Microsoft)</Value></Item>
+</Device>
+<Device><Title>Память FF700000-FF703FFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Контроллер High Definition Audio (Microsoft)</Value></Item>
+</Device>
+<Device><Title>Память FF704000-FF704FFF</Title><Icon>101</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Стандартный OpenHCD USB хост-контроллер</Value></Item>
+</Device>
+<Device><Title>Память FF705000-FF7050FF</Title><Icon>101</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Стандартный расширенный PCI - USB хост-контроллер</Value></Item>
+</Device>
+<Device><Title>Память FF706000-FF706FFF</Title><Icon>101</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Стандартный OpenHCD USB хост-контроллер</Value></Item>
+</Device>
+<Device><Title>Память FF707000-FF7070FF</Title><Icon>101</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Стандартный расширенный PCI - USB хост-контроллер</Value></Item>
+</Device>
+<Device><Title>Память FF708000-FF708FFF</Title><Icon>101</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Стандартный OpenHCD USB хост-контроллер</Value></Item>
+</Device>
+<Device><Title>Память FF709000-FF7097FF</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>AMD SATA Controller (IDE Mode)</Value></Item>
+</Device>
+<Device><Title>Память FF800000-FFFFFFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0000-000F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Контроллер прямого доступа к памяти</Value></Item>
+</Device>
+<Device><Title>Порт 0000-000F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0000-03AF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Шина PCI</Value></Item>
+</Device>
+<Device><Title>Порт 0010-001F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0010-001F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0020-0021</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Программируемый контроллер прерываний</Value></Item>
+</Device>
+<Device><Title>Порт 0022-003F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0022-003F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0040-0043</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Системный таймер</Value></Item>
+</Device>
+<Device><Title>Порт 0044-005F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0061-0061</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Встроенный динамик</Value></Item>
+</Device>
+<Device><Title>Порт 0063-0063</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0065-0065</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0067-006F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0070-0071</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>CMOS и часы</Value></Item>
+</Device>
+<Device><Title>Порт 0072-007F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0072-007F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0080-0080</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0080-0080</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0081-0083</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Контроллер прямого доступа к памяти</Value></Item>
+</Device>
+<Device><Title>Порт 0084-0086</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0084-0086</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0087-0087</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Контроллер прямого доступа к памяти</Value></Item>
+</Device>
+<Device><Title>Порт 0088-0088</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0088-0088</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0089-008B</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Контроллер прямого доступа к памяти</Value></Item>
+</Device>
+<Device><Title>Порт 008C-008E</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 008C-008E</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 008F-008F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Контроллер прямого доступа к памяти</Value></Item>
+</Device>
+<Device><Title>Порт 0090-009F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0090-009F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 00A0-00A1</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Программируемый контроллер прерываний</Value></Item>
+</Device>
+<Device><Title>Порт 00A2-00BF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 00A2-00BF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 00B1-00B1</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 00C0-00DF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Контроллер прямого доступа к памяти</Value></Item>
+</Device>
+<Device><Title>Порт 00E0-00EF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 00E0-00EF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 00F0-00FF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Арифметический сопроцессор</Value></Item>
+</Device>
+<Device><Title>Порт 0170-0177</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>ATA Channel 1</Value></Item>
+</Device>
+<Device><Title>Порт 01F0-01F7</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>ATA Channel 0</Value></Item>
+</Device>
+<Device><Title>Порт 0290-029F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0376-0376</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>ATA Channel 1</Value></Item>
+</Device>
+<Device><Title>Порт 03B0-03BB</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Не определено</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Порт PCI Express standard Root</Value></Item>
+</Device>
+<Device><Title>Порт 03B0-03DF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Шина PCI</Value></Item>
+</Device>
+<Device><Title>Порт 03C0-03DF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Не определено</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Порт PCI Express standard Root</Value></Item>
+</Device>
+<Device><Title>Порт 03E0-0CF7</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Шина PCI</Value></Item>
+</Device>
+<Device><Title>Порт 03F6-03F6</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>ATA Channel 0</Value></Item>
+</Device>
+<Device><Title>Порт 040B-040B</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 04D0-04D1</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 04D0-04D1</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 04D6-04D6</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0800-089F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0900-090F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0910-091F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0B20-0B3F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0C00-0C01</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0C14-0C14</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0C50-0C51</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0C52-0C52</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0C6C-0C6C</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0C6F-0C6F</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0CD0-0CD1</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0CD2-0CD3</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0CD4-0CD5</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0CD6-0CD7</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0CD8-0CDF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+<Device><Title>Порт 0D00-FFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Общий</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Шина PCI</Value></Item>
+</Device>
+<Device><Title>Порт D000-D0FF</Title><Icon>118</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Realtek PCIe GbE Family Controller</Value></Item>
+</Device>
+<Device><Title>Порт D000-DFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Порт PCI Express standard Root</Value></Item>
+</Device>
+<Device><Title>Порт E000-EFFF</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Порт PCI Express standard Root</Value></Item>
+</Device>
+<Device><Title>Порт F000-F00F</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>AMD PCI IDE Controller</Value></Item>
+</Device>
+<Device><Title>Порт F050-F05F</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>AMD SATA Controller (IDE Mode)</Value></Item>
+</Device>
+<Device><Title>Порт F060-F063</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>AMD SATA Controller (IDE Mode)</Value></Item>
+</Device>
+<Device><Title>Порт F070-F077</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>AMD SATA Controller (IDE Mode)</Value></Item>
+</Device>
+<Device><Title>Порт F080-F083</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>AMD SATA Controller (IDE Mode)</Value></Item>
+</Device>
+<Device><Title>Порт F090-F097</Title><Icon>20</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>AMD SATA Controller (IDE Mode)</Value></Item>
+</Device>
+<Device><Title>Порт FE00-FEFE</Title><Icon>12</Icon>
+<Item><Title>Общие ресурсы</Title><Value>Исключительный</Value></Item>
+<Item><Title>Описание устройства</Title><Value>Ресурсы системной платы</Value></Item>
+</Device>
+</Page>
+<Page><Title>Принтеры</Title><Icon>65</Icon><MenuTitle>Устройства</MenuTitle><MenuIcon>19</MenuIcon>
+<Device><Title>Canon MF240 Series UFRII LT (копия 1)</Title><Icon>65</Icon>
+<Group><Title>Свойства принтера</Title><Icon>65</Icon>
+<Item><Title>Имя принтера</Title><Icon>65</Icon><ID>1025</ID><Value>Canon MF240 Series UFRII LT (копия 1)</Value></Item>
+<Item><Title>Принтер по умолчанию</Title><Icon>65</Icon><ID>1026</ID><Value>Нет</Value></Item>
+<Item><Title>Совместное использование</Title><Icon>127</Icon><ID>1027</ID><Value>CanonMF240</Value></Item>
+<Item><Title>Порт принтера</Title><Icon>63</Icon><ID>1028</ID><Value>USB001</Value></Item>
+<Item><Title>Драйвер принтера</Title><Icon>91</Icon><ID>1029</ID><Value>Canon MF240 Series UFRII LT (v21.75)</Value></Item>
+<Item><Title>Имя устройства</Title><Icon>65</Icon><ID>1030</ID><Value>Canon MF240 Series UFRII LT (ко</Value></Item>
+<Item><Title>Процессор печати</Title><Icon>65</Icon><ID>1033</ID><Value>winprint</Value></Item>
+<Item><Title>Разделитель страницы</Title><Icon>60</Icon><ID>1034</ID><Value>Нет</Value></Item>
+<Item><Title>Доступность</Title><Icon>65</Icon><ID>1035</ID><Value>Всегда</Value></Item>
+<Item><Title>Приоритет</Title><Icon>65</Icon><ID>1036</ID><Value>1</Value></Item>
+<Item><Title>Заданий в очереди на печать</Title><Icon>65</Icon><ID>1037</ID><Value>1</Value></Item>
+<Item><Title>Статус</Title><Icon>65</Icon><ID>1038</ID><Value>Pending Deletion</Value></Item>
+</Group>
+<Group><Title>Свойства бумаги</Title><Icon>60</Icon>
+<Item><Title>Размер бумаги</Title><Icon>60</Icon><ID>1039</ID><Value>A4, 210 x 297 mm</Value></Item>
+<Item><Title>Ориентация</Title><Icon>60</Icon><ID>1040</ID><Value>Книжная</Value></Item>
+<Item><Title>Качество печати</Title><Icon>60</Icon><ID>1041</ID><Value>600 dpi</Value></Item>
+</Group>
+<Group><Title>Производитель принтера</Title><Icon>65</Icon>
+<Item><Title>Фирма</Title><Icon>65</Icon><ID>1042</ID><Value>Canon U.S.A.,Inc.</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>65</Icon><ID>1043</ID><Value>http://consumer.usa.canon.com/ir/controller?act=ProductCatIndexAct&amp;fcategoryid=103</Value></Item>
+<Item><Title>Обновление драйверов</Title><Icon>91</Icon><ID>1044</ID><Value>http://www.aida64.com/driver-updates</Value></Item>
+</Group>
+</Device>
+<Device><Title>Canon MF240 Series UFRII LT (По умолчанию)</Title><Icon>65</Icon>
+<Group><Title>Свойства принтера</Title><Icon>65</Icon>
+<Item><Title>Имя принтера</Title><Icon>65</Icon><ID>1025</ID><Value>Canon MF240 Series UFRII LT</Value></Item>
+<Item><Title>Принтер по умолчанию</Title><Icon>65</Icon><ID>1026</ID><Value>Да</Value></Item>
+<Item><Title>Совместное использование</Title><Icon>127</Icon><ID>1027</ID><Value>Не общий</Value></Item>
+<Item><Title>Порт принтера</Title><Icon>63</Icon><ID>1028</ID><Value>192.168.2.14</Value></Item>
+<Item><Title>Драйвер принтера</Title><Icon>91</Icon><ID>1029</ID><Value>Canon MF240 Series UFRII LT (v21.75)</Value></Item>
+<Item><Title>Имя устройства</Title><Icon>65</Icon><ID>1030</ID><Value>Canon MF240 Series UFRII LT</Value></Item>
+<Item><Title>Процессор печати</Title><Icon>65</Icon><ID>1033</ID><Value>winprint</Value></Item>
+<Item><Title>Разделитель страницы</Title><Icon>60</Icon><ID>1034</ID><Value>Нет</Value></Item>
+<Item><Title>Доступность</Title><Icon>65</Icon><ID>1035</ID><Value>Всегда</Value></Item>
+<Item><Title>Приоритет</Title><Icon>65</Icon><ID>1036</ID><Value>1</Value></Item>
+<Item><Title>Заданий в очереди на печать</Title><Icon>65</Icon><ID>1037</ID><Value>0</Value></Item>
+<Item><Title>Статус</Title><Icon>65</Icon><ID>1038</ID><Value>Неизвестно</Value></Item>
+</Group>
+<Group><Title>Свойства бумаги</Title><Icon>60</Icon>
+<Item><Title>Размер бумаги</Title><Icon>60</Icon><ID>1039</ID><Value>A4, 210 x 297 mm</Value></Item>
+<Item><Title>Ориентация</Title><Icon>60</Icon><ID>1040</ID><Value>Книжная</Value></Item>
+<Item><Title>Качество печати</Title><Icon>60</Icon><ID>1041</ID><Value>600 dpi</Value></Item>
+</Group>
+<Group><Title>Производитель принтера</Title><Icon>65</Icon>
+<Item><Title>Фирма</Title><Icon>65</Icon><ID>1042</ID><Value>Canon U.S.A.,Inc.</Value></Item>
+<Item><Title>Информация о продукте</Title><Icon>65</Icon><ID>1043</ID><Value>http://consumer.usa.canon.com/ir/controller?act=ProductCatIndexAct&amp;fcategoryid=103</Value></Item>
+<Item><Title>Обновление драйверов</Title><Icon>91</Icon><ID>1044</ID><Value>http://www.aida64.com/driver-updates</Value></Item>
+</Group>
+</Device>
+<Device><Title>Fax</Title><Icon>28</Icon>
+<Group><Title>Свойства принтера</Title><Icon>65</Icon>
+<Item><Title>Имя принтера</Title><Icon>65</Icon><ID>1025</ID><Value>Fax</Value></Item>
+<Item><Title>Принтер по умолчанию</Title><Icon>65</Icon><ID>1026</ID><Value>Нет</Value></Item>
+<Item><Title>Совместное использование</Title><Icon>127</Icon><ID>1027</ID><Value>Не общий</Value></Item>
+<Item><Title>Порт принтера</Title><Icon>63</Icon><ID>1028</ID><Value>SHRFAX:</Value></Item>
+<Item><Title>Драйвер принтера</Title><Icon>91</Icon><ID>1029</ID><Value>Microsoft Shared Fax Driver (v4.00)</Value></Item>
+<Item><Title>Имя устройства</Title><Icon>65</Icon><ID>1030</ID><Value>Fax</Value></Item>
+<Item><Title>Процессор печати</Title><Icon>65</Icon><ID>1033</ID><Value>winprint</Value></Item>
+<Item><Title>Разделитель страницы</Title><Icon>60</Icon><ID>1034</ID><Value>Нет</Value></Item>
+<Item><Title>Доступность</Title><Icon>65</Icon><ID>1035</ID><Value>6:00 - 6:00</Value></Item>
+<Item><Title>Приоритет</Title><Icon>65</Icon><ID>1036</ID><Value>1</Value></Item>
+<Item><Title>Заданий в очереди на печать</Title><Icon>65</Icon><ID>1037</ID><Value>0</Value></Item>
+<Item><Title>Статус</Title><Icon>65</Icon><ID>1038</ID><Value>Неизвестно</Value></Item>
+</Group>
+<Group><Title>Свойства бумаги</Title><Icon>60</Icon>
+<Item><Title>Размер бумаги</Title><Icon>60</Icon><ID>1039</ID><Value>Letter, 8.5 x 11 in</Value></Item>
+<Item><Title>Ориентация</Title><Icon>60</Icon><ID>1040</ID><Value>Книжная</Value></Item>
+<Item><Title>Качество печати</Title><Icon>60</Icon><ID>1041</ID><Value>200 x 200 dpi Mono</Value></Item>
+</Group>
+</Device>
+<Device><Title>PDF24 Fax</Title><Icon>65</Icon>
+<Group><Title>Свойства принтера</Title><Icon>65</Icon>
+<Item><Title>Имя принтера</Title><Icon>65</Icon><ID>1025</ID><Value>PDF24 Fax</Value></Item>
+<Item><Title>Принтер по умолчанию</Title><Icon>65</Icon><ID>1026</ID><Value>Нет</Value></Item>
+<Item><Title>Совместное использование</Title><Icon>127</Icon><ID>1027</ID><Value>Не общий</Value></Item>
+<Item><Title>Порт принтера</Title><Icon>63</Icon><ID>1028</ID><Value>\\.\pipe\FaxPrint</Value></Item>
+<Item><Title>Драйвер принтера</Title><Icon>91</Icon><ID>1029</ID><Value>PDF24 (v6.00)</Value></Item>
+<Item><Title>Имя устройства</Title><Icon>65</Icon><ID>1030</ID><Value>PDF24 Fax</Value></Item>
+<Item><Title>Комментарий</Title><Icon>135</Icon><ID>1031</ID><Value>PDF24 Printer</Value></Item>
+<Item><Title>Процессор печати</Title><Icon>65</Icon><ID>1033</ID><Value>winprint</Value></Item>
+<Item><Title>Разделитель страницы</Title><Icon>60</Icon><ID>1034</ID><Value>Нет</Value></Item>
+<Item><Title>Доступность</Title><Icon>65</Icon><ID>1035</ID><Value>Всегда</Value></Item>
+<Item><Title>Приоритет</Title><Icon>65</Icon><ID>1036</ID><Value>1</Value></Item>
+<Item><Title>Заданий в очереди на печать</Title><Icon>65</Icon><ID>1037</ID><Value>0</Value></Item>
+<Item><Title>Статус</Title><Icon>65</Icon><ID>1038</ID><Value>Неизвестно</Value></Item>
+</Group>
+<Group><Title>Свойства бумаги</Title><Icon>60</Icon>
+<Item><Title>Размер бумаги</Title><Icon>60</Icon><ID>1039</ID><Value>A4, 210 x 297 mm</Value></Item>
+<Item><Title>Ориентация</Title><Icon>60</Icon><ID>1040</ID><Value>Книжная</Value></Item>
+<Item><Title>Качество печати</Title><Icon>60</Icon><ID>1041</ID><Value>200 x 200 dpi Mono</Value></Item>
+</Group>
+</Device>
+<Device><Title>PDF24</Title><Icon>65</Icon>
+<Group><Title>Свойства принтера</Title><Icon>65</Icon>
+<Item><Title>Имя принтера</Title><Icon>65</Icon><ID>1025</ID><Value>PDF24</Value></Item>
+<Item><Title>Принтер по умолчанию</Title><Icon>65</Icon><ID>1026</ID><Value>Нет</Value></Item>
+<Item><Title>Совместное использование</Title><Icon>127</Icon><ID>1027</ID><Value>Не общий</Value></Item>
+<Item><Title>Порт принтера</Title><Icon>63</Icon><ID>1028</ID><Value>\\.\pipe\PDFPrint</Value></Item>
+<Item><Title>Драйвер принтера</Title><Icon>91</Icon><ID>1029</ID><Value>PDF24 (v6.00)</Value></Item>
+<Item><Title>Имя устройства</Title><Icon>65</Icon><ID>1030</ID><Value>PDF24</Value></Item>
+<Item><Title>Комментарий</Title><Icon>135</Icon><ID>1031</ID><Value>PDF24 Printer</Value></Item>
+<Item><Title>Процессор печати</Title><Icon>65</Icon><ID>1033</ID><Value>winprint</Value></Item>
+<Item><Title>Разделитель страницы</Title><Icon>60</Icon><ID>1034</ID><Value>Нет</Value></Item>
+<Item><Title>Доступность</Title><Icon>65</Icon><ID>1035</ID><Value>Всегда</Value></Item>
+<Item><Title>Приоритет</Title><Icon>65</Icon><ID>1036</ID><Value>1</Value></Item>
+<Item><Title>Заданий в очереди на печать</Title><Icon>65</Icon><ID>1037</ID><Value>0</Value></Item>
+<Item><Title>Статус</Title><Icon>65</Icon><ID>1038</ID><Value>Неизвестно</Value></Item>
+</Group>
+<Group><Title>Свойства бумаги</Title><Icon>60</Icon>
+<Item><Title>Размер бумаги</Title><Icon>60</Icon><ID>1039</ID><Value>A4, 210 x 297 mm</Value></Item>
+<Item><Title>Ориентация</Title><Icon>60</Icon><ID>1040</ID><Value>Книжная</Value></Item>
+<Item><Title>Качество печати</Title><Icon>60</Icon><ID>1041</ID><Value>600 x 600 dpi Color</Value></Item>
+</Group>
+</Device>
+</Page>
+</Report>
