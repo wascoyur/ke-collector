@@ -75,20 +75,22 @@
       <div class="card-body">
         <img src="src/img/tower-computer.jpg" class="card-img-top" alt="... " style="width: 100px;">
         <div class="card-body">
-          <h5 class="card-title">Активная КЕ (Системный блок)</h5>
+          <h5 class="card-title">Активная КЕ {Системный блок}</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.
           </p>
           <div class="accordion" id="accordionExample">
             <div class="card">
-              <div class="card-header" id="headingOne">
+              <div class="card-header d-flex flex-row justify-content-between align-items-center" id="headingOne">
                 <h5 class="mb-0">
                   <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
                     aria-expanded="true" aria-controls="collapseOne">
                     Данные из rrit
                   </button>
                 </h5>
-
+                <form>
+                  <input type="file" class="form-control-file" id="file">
+                </form>
               </div>
 
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -96,14 +98,6 @@
                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
                   moon
                   officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                  Brunch 3 wolf
-                  moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                  Nihil anim
-                  keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                  excepteur
-                  butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                  probably
-                  haven't heard of them accusamus labore sustainable VHS.
                 </div>
               </div>
             </div>
@@ -121,14 +115,7 @@
                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
                   moon
                   officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-                  Brunch 3 wolf
-                  moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
-                  Nihil anim
-                  keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                  excepteur
-                  butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                  probably
-                  haven't heard of them accusamus labore sustainable VHS.
+
                 </div>
               </div>
             </div>
@@ -141,15 +128,33 @@
                   </button>
                 </h5>
                 <form>
-                  <label for="exampleFormControlFile1">Загрузить сюда</label>
-                  <input type="file" class="form-control-file" id="file">
+                  <input type="file" class="form-control-file" id="aida-xml">
                 </form>
 
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
 
-                </div>
+                <button type="button" class="btn btn-outline-primary" id="btn-stnd-set">Показать стандартный набор</button>
+
+                <table class="table table-striped" id="aida-out">
+                  <thead>
+                    <tr>
+                      <!-- <th scope="col-2">#</th> -->
+                      <th scope="col">Параметр</th>
+                      <th scope="col">Значение</th>
+                      <th scope="col">add to Report</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <!-- <th scope="col">123</th> -->
+                      <td scope="col">Имя параметра</td>
+                      <td scope="col">Lorem ipsum dolor</td>
+                      <td scope="col"><input type="checkbox"></td>
+                    </tr>
+
+                  </tbody>
+                </table>
               </div>
             </div>
 
@@ -158,7 +163,7 @@
                   <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                       data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Акт осмотра
+                      Для Акта осмотра
                     </button>
                   </h5>
                   <button class="btn btn-link" type="button">Печать Акта
@@ -168,6 +173,14 @@
                 <div id="collapseThree" class="collapse show" aria-labelledby="headingThree"
                   data-parent="#accordionExample">
                   <div class="card-body">
+                    <div class="row" id="address">
+                      <div class="col" id="addr">Место расположения</div>
+                      <div class="col" id="addr-ins">ул. Ломоносова 60</div>
+                    </div>
+                    <div class="row" id="commission">
+                      <div class="col" id="addr">Состав комиссии</div>
+                      <div class="col" id="addr-ins">Иванов, Петров, Сидоров</div>
+                    </div>
                     <div class="row">
                           <div class="col-5" id="equip-name">Наименование оборудования</div>
                           <div class="col" id="name-equip-ins">Системный блок</div>
@@ -210,10 +223,7 @@
                       <div class="col" id="workstation-power">Блок питания</div>
                       <div class="col" id="workstation-power-ins">Вт</div>
                     </div>
-                    <div class="row" id="address">
-                      <div class="col" id="addr">Место расположения</div>
-                      <div class="col" id="addr-ins">ул. Ломоносова 60</div>
-                    </div>
+
                     <div class="row" id="result">
                       <div class="col" id="result-visual">Результат осмотра</div>
                       <div class="col" >

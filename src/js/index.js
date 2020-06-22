@@ -1,8 +1,9 @@
 console.log('start');
-let formInputAidaFile = document.getElementById('file');
+let formInputAidaFile = document.getElementById('aida-xml');
 let configurationUnit = {};
-let myTable = document.querySelector('tabl	e');
+let myTable = document.querySelector('#aida-out');
 let res = 'one';
+const btnViewReportAida = document.getElementById('btn-stnd-set');
 
 formInputAidaFile.addEventListener('change', (ev) => {
 	ev.preventDefault;
@@ -13,6 +14,7 @@ formInputAidaFile.addEventListener('change', (ev) => {
 	parserData(pages);
 	viewer(configurationUnit);
 })
+
 
 /*=================== functions ======================  */
 function parserData(nodes) {
@@ -42,11 +44,18 @@ function viewer(data) {
 	for (const key in data) {
 		let row = document.createElement('tr');
 		let cell1 = document.createElement('td');
+		let checkbox = document.createElement('input');
+		checkbox.type = "checkbox";
+		checkbox.setAttribute('scope', 'col');
 		cell1.textContent = key;
+		cell1.setAttribute('scope', 'col');
 		let cell2 = document.createElement('td');
 		cell2.textContent = data[key];
+		cell2.setAttribute('scope', 'col');
+		row.insertAdjacentElement('afterbegin', checkbox);
 		row.insertAdjacentElement('afterbegin', cell2);
 		row.insertAdjacentElement('afterbegin', cell1);
+
 		tbody.insertAdjacentElement('afterbegin',row);
 	}
 
