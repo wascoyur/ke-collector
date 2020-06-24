@@ -3,7 +3,9 @@ let formInputAidaFile = document.getElementById('aida-xml');
 let configurationUnit = {};
 let myTable = document.querySelector('#aida-out');
 let res = 'one';
-const btnViewReportAida = document.getElementById('btn-stnd-set');
+const arrStdReport = ['Тип ЦП', 'Тип памяти', 'Всего', 'Системная плата'];
+const btnViewStndReportAida = document.getElementById('btn-stnd-set');
+const btnViewAllReportAida = document.getElementById('btn-view-all');
 
 formInputAidaFile.addEventListener('change', (ev) => {
 	ev.preventDefault;
@@ -12,9 +14,15 @@ formInputAidaFile.addEventListener('change', (ev) => {
 	let xmlDOM = parser.parseFromString(res, 'application/xml');
 	let pages = xmlDOM.querySelectorAll('Item');
 	parserData(pages);
-	viewer(configurationUnit);
+	// viewer(configurationUnit);
 })
 
+btnViewAllReportAida.addEventListener('click', (ev) => {
+	viewer(configurationUnit)
+})
+btnViewStndReportAida.addEventListener('click', () =>{
+
+})
 
 /*=================== functions ======================  */
 function parserData(nodes) {
@@ -24,12 +32,21 @@ function parserData(nodes) {
 		let value = pageXmlNode.childNodes[arChildrNodes.length - 1].textContent;
 		configurationUnit[title] = value;
 	})
-	console.log('psd');
+
+	if (Object.keys(configurationUnit).length !== 0) {
+		const lamp = document.querySelector('#lamp');
+		document.querySelector('#lamp-text').textContent = 'Есть внешние данные';
+		lamp.style.backgroundColor = 'green';
+	}
+
 }
 function getFileFromDrive(event) {
 	let file = event.target.files[0];
+	if (!file) {
+		return;
+	}
 	let reader = new FileReader();
-	reader.readAsText(file);
+	reader.readAsText(file, 'cp1251');
 	reader.onload = function (e) {
 		res = reader.result
 	};
@@ -55,10 +72,12 @@ function viewer(data) {
 		row.insertAdjacentElement('afterbegin', checkbox);
 		row.insertAdjacentElement('afterbegin', cell2);
 		row.insertAdjacentElement('afterbegin', cell1);
-
 		tbody.insertAdjacentElement('afterbegin',row);
 	}
+}
+function viewerStnd(data){
+	data.forEach(el => {
 
-
+	})
 
 }

@@ -133,16 +133,27 @@
 
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="row" id="detector">
 
-                <button type="button" class="btn btn-outline-primary" id="btn-stnd-set">Показать стандартный набор</button>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">
-                      <input type="checkbox" aria-label="Checkbox for following text input">
-                    </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-primary align-baseline" id="btn-stnd-set">Показать стандартный набор</button>
+
                   </div>
-                  <input type="text" class="form-control" aria-label="Text input with checkbox">
+                  <div class="col">
+                    <button type="button" class="btn btn-outline-primary align-baseline" id="btn-view-all">Показать все</button>
+                  </div>
+                  <div class="col">
+                    <p class="m-3 p-3" id="lamp" style="border-radius:50%; background-color:red; height: 15px; width: 15px;"></p>
+
+                  </div>
+                  <div class="col">
+                    <p class="m-3" id="lamp-text">Нет внешних данных</p>
+                  </div>
+
+
                 </div>
+
+
                 <table class="table table-striped" id="aida-out">
                   <thead>
                     <tr>
