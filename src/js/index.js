@@ -3,7 +3,7 @@ let formInputAidaFile = document.getElementById('aida-xml');
 let configurationUnit = {};
 let myTable = document.querySelector('#aida-out');
 let res = 'one';
-const arrStdReport = ['Тип ЦП', 'Тип памяти', 'Всего', 'Системная плата'];
+const arrStdTemplReport = ['CPU', 'Тип памяти', 'Всего', 'Системная плата'];
 const btnViewStndReportAida = document.getElementById('btn-stnd-set');
 const btnViewAllReportAida = document.getElementById('btn-view-all');
 
@@ -21,7 +21,7 @@ btnViewAllReportAida.addEventListener('click', (ev) => {
 	viewer(configurationUnit)
 })
 btnViewStndReportAida.addEventListener('click', () =>{
-
+	viewerStnd(configurationUnit);
 })
 
 /*=================== functions ======================  */
@@ -57,7 +57,7 @@ function getFileFromDrive(event) {
 
 }
 function viewer(data) {
-	const tbody = myTable.querySelector('tbody')
+	const tbody = myTable.querySelector('tbody');
 	for (const key in data) {
 		let row = document.createElement('tr');
 		let cell1 = document.createElement('td');
@@ -77,10 +77,13 @@ function viewer(data) {
 }
 function viewerStnd(data){
 	let arrStndReport = {};
-	for(const key in data){
-		arrStdReport.forEach(el =>{
-			
-		})
-	}
-	return arrStdReport;
+	arrStdTemplReport.forEach(el =>{
+		for(const key in data){
+			if (el === key) {
+				arrStndReport[data] = key;
+			}
+		}
+	})
+
+	return arrStndReport;
 }
