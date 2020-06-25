@@ -10,9 +10,12 @@ const btnViewAllReportAida = document.getElementById('btn-view-all');
 formInputAidaFile.addEventListener('change', (ev) => {
 	ev.preventDefault;
 	getFileFromDrive(ev);
+	if (ev.target.value ) {
+
+	}
 	let parser = new DOMParser();
 	let xmlDOM = parser.parseFromString(res, 'application/xml');
-	let pages = xmlDOM.querySelectorAll('Item');
+	let pages = xmlDOM.querySelectorAll('Page');
 	parserData(pages);
 	// viewer(configurationUnit);
 })
