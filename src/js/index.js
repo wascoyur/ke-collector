@@ -76,8 +76,11 @@ function viewer(data) {
 	}
 }
 function viewerStnd(data){
-	data.forEach(el => {
-
-	})
-
+	let arrStndReport = {};
+	for(const key in data){
+		arrStdReport.forEach(el =>{
+			
+		})
+	}
+	return arrStdReport;
 }
