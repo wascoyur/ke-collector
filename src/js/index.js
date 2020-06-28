@@ -1,22 +1,24 @@
 console.log('start');
+import ('./xml2json.js');
 let formInputAidaFile = document.getElementById('aida-xml');
 let configurationUnit = {};
 let myTable = document.querySelector('#aida-out');
 let res = 'one';
-const arrStdTemplReport = ['CPU', 'Тип памяти', 'Всего', 'Системная плата'];
+const arrStdTemplReport = ['Имя ЦП CPUID', 'Тип памяти', 'Всего', 'Системная плата', 'Аппаратный адрес', 'Дисковый накопитель'];
 const btnViewStndReportAida = document.getElementById('btn-stnd-set');
 const btnViewAllReportAida = document.getElementById('btn-view-all');
 
 formInputAidaFile.addEventListener('change', (ev) => {
 	ev.preventDefault;
 	getFileFromDrive(ev);
-	if (ev.target.value ) {
-
-	}
 	let parser = new DOMParser();
 	let xmlDOM = parser.parseFromString(res, 'application/xml');
-	let pages = xmlDOM.querySelectorAll('Page');
-	parserData(pages);
+	// let pages = xmlDOM.querySelectorAll('Page');
+	let pages = xml2json(xmlDOM)
+	console.log(pages);
+	configurationUnit = JSON.parse(pages);
+	lamper();
+	// parserData(pages);
 	// viewer(configurationUnit);
 })
 
@@ -29,18 +31,16 @@ btnViewStndReportAida.addEventListener('click', () =>{
 
 /*=================== functions ======================  */
 function parserData(nodes) {
+	console.dir(nodes);
 	nodes.forEach(pageXmlNode => {
 		let arChildrNodes = Array.prototype.slice.call(pageXmlNode.childNodes);
+		console.dir(arChildrNodes);
 		let title = arChildrNodes[0].textContent;
 		let value = pageXmlNode.childNodes[arChildrNodes.length - 1].textContent;
 		configurationUnit[title] = value;
 	})
 
-	if (Object.keys(configurationUnit).length !== 0) {
-		const lamp = document.querySelector('#lamp');
-		document.querySelector('#lamp-text').textContent = 'Есть внешние данные';
-		lamp.style.backgroundColor = 'green';
-	}
+
 
 }
 function getFileFromDrive(event) {
@@ -50,6 +50,12 @@ function getFileFromDrive(event) {
 	}
 	let reader = new FileReader();
 	reader.readAsText(file, 'cp1251');
+	reader.onloadstart = function (params) {
+		console.log('begin loaded')
+	}
+	reader.onload = function (params) {
+		console.log('Загрузка файла закончена')
+	}
 	reader.onload = function (e) {
 		res = reader.result
 	};
@@ -82,11 +88,17 @@ function viewerStnd(data){
 	let arrStndReport = {};
 	arrStdTemplReport.forEach(el =>{
 		for(const key in data){
-			if (el === key) {
+			if (el == key) {
 				arrStndReport[data] = key;
 			}
 		}
 	})
-
 	return arrStndReport;
+}
+function lamper(){
+	if (Object.keys(configurationUnit).length !== 0) {
+		const lamp = document.querySelector('#lamp');
+		document.querySelector('#lamp-text').textContent = 'Есть внешние данные';
+		lamp.style.backgroundColor = 'green';
+	}
 }
